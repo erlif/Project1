@@ -1,0 +1,3 @@
+0
+Resolver_php_6463f57aaa3ab1de402e2e6ef6bac53d
+a:3:{s:7:"classes";a:1:{s:33:"SilverStripe\CMS\GraphQL\Resolver";a:2:{s:7:"extends";a:0:{}s:10:"interfaces";a:0:{}}}s:10:"interfaces";a:0:{}s:6:"traits";a:0:{}}

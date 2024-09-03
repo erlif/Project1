@@ -1,0 +1,3 @@
+0
+VersionedResolver_php_479de824ddc68b42f0802b80dee989fe
+a:3:{s:7:"classes";a:1:{s:58:"SilverStripe\Versioned\GraphQL\Resolvers\VersionedResolver";a:2:{s:7:"extends";a:0:{}s:10:"interfaces";a:0:{}}}s:10:"interfaces";a:0:{}s:6:"traits";a:0:{}}

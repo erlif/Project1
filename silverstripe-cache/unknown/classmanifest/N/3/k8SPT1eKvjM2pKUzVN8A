@@ -1,0 +1,3 @@
+0
+ProxyCacheAdapter_php_ea3ce88a4a4a2ee1edb338ede26ace14
+a:3:{s:7:"classes";a:1:{s:48:"SilverStripe\Versioned\Caching\ProxyCacheAdapter";a:2:{s:7:"extends";a:0:{}s:10:"interfaces";a:3:{i:0;s:30:"Psr\SimpleCache\CacheInterface";i:1;s:43:"Symfony\Component\Cache\ResettableInterface";i:2;s:42:"Symfony\Component\Cache\PruneableInterface";}}}s:10:"interfaces";a:0:{}s:6:"traits";a:0:{}}

@@ -1,0 +1,3 @@
+0
+AssetAdmin_php_8fd606ccf189046d80750c3400155bb4
+a:3:{s:7:"classes";a:1:{s:45:"SilverStripe\AssetAdmin\Controller\AssetAdmin";a:2:{s:7:"extends";a:1:{i:0;s:30:"SilverStripe\Admin\LeftAndMain";}s:10:"interfaces";a:1:{i:0;s:40:"SilverStripe\Security\PermissionProvider";}}}s:10:"interfaces";a:0:{}s:6:"traits";a:0:{}}

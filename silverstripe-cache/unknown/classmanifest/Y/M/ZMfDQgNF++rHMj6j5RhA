@@ -1,0 +1,3 @@
+0
+Inheritance_php_1679f54ebe84f021e225c22a7345991a
+a:3:{s:7:"classes";a:1:{s:57:"SilverStripe\GraphQL\Schema\DataObject\Plugin\Inheritance";a:2:{s:7:"extends";a:0:{}s:10:"interfaces";a:3:{i:0;s:54:"SilverStripe\GraphQL\Schema\Interfaces\PluginInterface";i:1;s:52:"SilverStripe\GraphQL\Schema\Interfaces\SchemaUpdater";i:2;s:54:"SilverStripe\GraphQL\Schema\Interfaces\ModelTypePlugin";}}}s:10:"interfaces";a:0:{}s:6:"traits";a:0:{}}

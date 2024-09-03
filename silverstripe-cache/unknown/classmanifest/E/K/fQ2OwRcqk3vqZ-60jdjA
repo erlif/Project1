@@ -1,0 +1,3 @@
+0
+AbstractQuerySortPlugin_php_35c96c5409613a33d517d1c3ff6bba28
+a:3:{s:7:"classes";a:1:{s:58:"SilverStripe\GraphQL\Schema\Plugin\AbstractQuerySortPlugin";a:2:{s:7:"extends";a:0:{}s:10:"interfaces";a:2:{i:0;s:52:"SilverStripe\GraphQL\Schema\Interfaces\SchemaUpdater";i:1;s:55:"SilverStripe\GraphQL\Schema\Interfaces\ModelQueryPlugin";}}}s:10:"interfaces";a:0:{}s:6:"traits";a:0:{}}

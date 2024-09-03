@@ -1,0 +1,3 @@
+0
+CanonicalModelAware_php_2ce2357af73d15ff0f9150c3e4229385
+a:3:{s:7:"classes";a:0:{}s:10:"interfaces";a:0:{}s:6:"traits";a:1:{s:52:"SilverStripe\GraphQL\Schema\Type\CanonicalModelAware";a:0:{}}}

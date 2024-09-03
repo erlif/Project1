@@ -1,0 +1,3 @@
+0
+ModelType_php_feb0f46b46d60d9d2fa911977c24d293
+a:3:{s:7:"classes";a:1:{s:42:"SilverStripe\GraphQL\Schema\Type\ModelType";a:2:{s:7:"extends";a:1:{i:0;s:37:"SilverStripe\GraphQL\Schema\Type\Type";}s:10:"interfaces";a:1:{i:0;s:56:"SilverStripe\GraphQL\Schema\Interfaces\ExtraTypeProvider";}}}s:10:"interfaces";a:0:{}s:6:"traits";a:0:{}}

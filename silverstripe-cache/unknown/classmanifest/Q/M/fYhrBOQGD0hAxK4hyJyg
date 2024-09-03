@@ -1,0 +1,3 @@
+0
+GridFieldStateManagerInterface_php_cc0f4b02aeb84c5c305e3226bc91144e
+a:3:{s:7:"classes";a:0:{}s:10:"interfaces";a:1:{s:59:"SilverStripe\Forms\GridField\GridFieldStateManagerInterface";a:1:{s:7:"extends";a:0:{}}}s:6:"traits";a:0:{}}

@@ -1,0 +1,3 @@
+0
+OperationProvider_php_fb8d5a0245eb6720969501206b3223ce
+a:3:{s:7:"classes";a:0:{}s:10:"interfaces";a:1:{s:56:"SilverStripe\GraphQL\Schema\Interfaces\OperationProvider";a:1:{s:7:"extends";a:0:{}}}s:6:"traits";a:0:{}}

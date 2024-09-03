@@ -1,0 +1,3 @@
+0
+ModelUnionType_php_48e8e129e5b0c69f6edea3073e3658bb
+a:3:{s:7:"classes";a:1:{s:47:"SilverStripe\GraphQL\Schema\Type\ModelUnionType";a:2:{s:7:"extends";a:1:{i:0;s:42:"SilverStripe\GraphQL\Schema\Type\UnionType";}s:10:"interfaces";a:0:{}}}s:10:"interfaces";a:0:{}s:6:"traits";a:0:{}}

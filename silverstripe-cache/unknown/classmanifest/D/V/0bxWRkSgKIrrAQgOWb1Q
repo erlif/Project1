@@ -1,0 +1,3 @@
+0
+DBFloatArgs_php_32acd07019ea78bf5665953d68ea3b8a
+a:3:{s:7:"classes";a:1:{s:69:"SilverStripe\GraphQL\Schema\DataObject\Plugin\DBFieldArgs\DBFloatArgs";a:2:{s:7:"extends";a:1:{i:0;s:69:"SilverStripe\GraphQL\Schema\DataObject\Plugin\DBFieldArgs\DBFieldArgs";}s:10:"interfaces";a:0:{}}}s:10:"interfaces";a:0:{}s:6:"traits";a:0:{}}

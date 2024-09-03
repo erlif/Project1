@@ -1,0 +1,3 @@
+0
+QueryHandlerInterface_php_3be035c1a3483350aa6409ef20b51227
+a:3:{s:7:"classes";a:0:{}s:10:"interfaces";a:1:{s:55:"SilverStripe\GraphQL\QueryHandler\QueryHandlerInterface";a:1:{s:7:"extends";a:0:{}}}s:6:"traits";a:0:{}}

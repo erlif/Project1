@@ -1,0 +1,3 @@
+0
+AopProxyService_php_caef98e032a4905a3fbb64662a748dbc
+a:3:{s:7:"classes";a:1:{s:42:"SilverStripe\Core\Injector\AopProxyService";a:2:{s:7:"extends";a:0:{}s:10:"interfaces";a:0:{}}}s:10:"interfaces";a:0:{}s:6:"traits";a:0:{}}

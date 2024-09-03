@@ -1,0 +1,3 @@
+0
+DataQuery_php_d7ce82f910a44736fab7f7d6cb0284cc
+a:3:{s:7:"classes";a:1:{s:26:"SilverStripe\ORM\DataQuery";a:2:{s:7:"extends";a:0:{}s:10:"interfaces";a:0:{}}}s:10:"interfaces";a:0:{}s:6:"traits";a:0:{}}

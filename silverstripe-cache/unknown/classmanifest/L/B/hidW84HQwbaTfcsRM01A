@@ -1,0 +1,3 @@
+0
+QueuedJobDescriptorExtension_php_c238deebc36d890e03bdd3d3fcd9b19a
+a:3:{s:7:"classes";a:1:{s:67:"SilverStripe\SessionManager\Extensions\QueuedJobDescriptorExtension";a:2:{s:7:"extends";a:1:{i:0;s:27:"SilverStripe\Core\Extension";}s:10:"interfaces";a:0:{}}}s:10:"interfaces";a:0:{}s:6:"traits";a:0:{}}

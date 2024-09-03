@@ -1,0 +1,3 @@
+0
+Database_php_9f7434b15d9e378a071f246856a046e6
+a:3:{s:7:"classes";a:1:{s:33:"SilverStripe\ORM\Connect\Database";a:2:{s:7:"extends";a:0:{}s:10:"interfaces";a:0:{}}}s:10:"interfaces";a:0:{}s:6:"traits";a:0:{}}

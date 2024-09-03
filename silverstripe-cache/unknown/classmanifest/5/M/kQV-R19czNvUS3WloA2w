@@ -1,0 +1,3 @@
+0
+SchemaStorageInterface_php_8b7ec5601bf5dd11fbc0699b583c89b8
+a:3:{s:7:"classes";a:0:{}s:10:"interfaces";a:1:{s:61:"SilverStripe\GraphQL\Schema\Interfaces\SchemaStorageInterface";a:1:{s:7:"extends";a:0:{}}}s:6:"traits";a:0:{}}

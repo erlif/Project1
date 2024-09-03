@@ -1,0 +1,3 @@
+0
+FixtureFactory_php_ca47244c6de2ac5d0ffe132d75e15e84
+a:3:{s:7:"classes";a:1:{s:31:"SilverStripe\Dev\FixtureFactory";a:2:{s:7:"extends";a:0:{}s:10:"interfaces";a:0:{}}}s:10:"interfaces";a:0:{}s:6:"traits";a:0:{}}

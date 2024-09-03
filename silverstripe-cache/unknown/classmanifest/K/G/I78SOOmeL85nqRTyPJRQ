@@ -1,0 +1,3 @@
+0
+SearchableDropdownField_php_63c0a8591746d878e462e2f53d2099cb
+a:3:{s:7:"classes";a:1:{s:42:"SilverStripe\Forms\SearchableDropdownField";a:2:{s:7:"extends";a:1:{i:0;s:32:"SilverStripe\Forms\DropdownField";}s:10:"interfaces";a:0:{}}}s:10:"interfaces";a:0:{}s:6:"traits";a:0:{}}

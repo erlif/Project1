@@ -1,0 +1,3 @@
+0
+Sha1FileHashingService_php_398a4b8b76035f990d256de1474fea34
+a:3:{s:7:"classes";a:1:{s:50:"SilverStripe\Assets\Storage\Sha1FileHashingService";a:2:{s:7:"extends";a:0:{}s:10:"interfaces";a:2:{i:0;s:46:"SilverStripe\Assets\Storage\FileHashingService";i:1;s:27:"SilverStripe\Core\Flushable";}}}s:10:"interfaces";a:0:{}s:6:"traits";a:0:{}}

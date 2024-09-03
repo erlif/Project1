@@ -1,0 +1,3 @@
+0
+InheritedPermissionFlusher_php_0fe54a1862ac0be00a22f27abc3c07f1
+a:3:{s:7:"classes";a:1:{s:48:"SilverStripe\Security\InheritedPermissionFlusher";a:2:{s:7:"extends";a:1:{i:0;s:30:"SilverStripe\ORM\DataExtension";}s:10:"interfaces";a:1:{i:0;s:27:"SilverStripe\Core\Flushable";}}}s:10:"interfaces";a:0:{}s:6:"traits";a:0:{}}

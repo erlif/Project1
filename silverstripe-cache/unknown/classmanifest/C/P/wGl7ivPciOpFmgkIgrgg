@@ -1,0 +1,3 @@
+0
+QueryCachingMiddleware_php_1df1cb30934baecdffc3856aaeaef0f2
+a:3:{s:7:"classes";a:1:{s:54:"SilverStripe\GraphQL\Middleware\QueryCachingMiddleware";a:2:{s:7:"extends";a:0:{}s:10:"interfaces";a:2:{i:0;s:47:"SilverStripe\GraphQL\Middleware\QueryMiddleware";i:1;s:27:"SilverStripe\Core\Flushable";}}}s:10:"interfaces";a:0:{}s:6:"traits";a:0:{}}

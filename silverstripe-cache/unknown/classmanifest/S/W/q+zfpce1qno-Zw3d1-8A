@@ -1,0 +1,3 @@
+0
+BrokenFilesReport_php_da911cdf28ffa9ab215f6948a260e350
+a:3:{s:7:"classes";a:1:{s:42:"SilverStripe\CMS\Reports\BrokenFilesReport";a:2:{s:7:"extends";a:1:{i:0;s:27:"SilverStripe\Reports\Report";}s:10:"interfaces";a:0:{}}}s:10:"interfaces";a:0:{}s:6:"traits";a:0:{}}

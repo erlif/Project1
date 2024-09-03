@@ -1,0 +1,3 @@
+0
+FileResolutionStrategy_php_c62aca3c39dac447159a762dc70ce66b
+a:3:{s:7:"classes";a:0:{}s:10:"interfaces";a:1:{s:58:"SilverStripe\Assets\FilenameParsing\FileResolutionStrategy";a:1:{s:7:"extends";a:0:{}}}s:6:"traits";a:0:{}}

@@ -1,0 +1,3 @@
+0
+InterfaceBuilder_php_aa1ecabd7c823b252feb89dbe5e6284a
+a:3:{s:7:"classes";a:1:{s:55:"SilverStripe\GraphQL\Schema\DataObject\InterfaceBuilder";a:2:{s:7:"extends";a:0:{}s:10:"interfaces";a:0:{}}}s:10:"interfaces";a:0:{}s:6:"traits";a:0:{}}

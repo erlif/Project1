@@ -1,0 +1,3 @@
+0
+Controller_php_d30a1cca0aedb3a8ee6344270f156f14
+a:3:{s:7:"classes";a:1:{s:31:"SilverStripe\GraphQL\Controller";a:2:{s:7:"extends";a:1:{i:0;s:31:"SilverStripe\Control\Controller";}s:10:"interfaces";a:0:{}}}s:10:"interfaces";a:0:{}s:6:"traits";a:0:{}}

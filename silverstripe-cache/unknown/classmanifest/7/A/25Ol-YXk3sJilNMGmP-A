@@ -1,0 +1,3 @@
+0
+InputTypeProvider_php_7884b91a27e81e647c70ce59fe2be6ba
+a:3:{s:7:"classes";a:0:{}s:10:"interfaces";a:1:{s:56:"SilverStripe\GraphQL\Schema\Interfaces\InputTypeProvider";a:1:{s:7:"extends";a:0:{}}}s:6:"traits";a:0:{}}

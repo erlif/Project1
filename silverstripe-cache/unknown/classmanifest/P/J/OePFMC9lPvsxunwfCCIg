@@ -1,0 +1,3 @@
+0
+AssetContainer_php_8e10d05ced42bcb17a2be976598e0bd0
+a:3:{s:7:"classes";a:0:{}s:10:"interfaces";a:1:{s:42:"SilverStripe\Assets\Storage\AssetContainer";a:1:{s:7:"extends";a:0:{}}}s:6:"traits";a:0:{}}

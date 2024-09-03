@@ -1,0 +1,28 @@
+
+@media(max-width: 400px){
+    .scale{
+        scale: 1.5;
+    }
+}
+
+.scale{
+    scale: 1.5;
+}
+
+
+@media (max-width: 400px) {
+    .scale {
+      transform: scale(10);
+    }
+  }
+
+  @media only screen and (max-width: 400px) {
+    .scale {
+      background-color: lightblue;
+    }
+  }
+  @media (min-width: 200px) {
+    .scale{
+        scale: 1.5;
+    }
+}

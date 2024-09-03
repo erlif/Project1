@@ -1,0 +1,3 @@
+0
+FileLink_php_3a1de8dc032be342f2b2ee675ca1c1bc
+a:3:{s:7:"classes";a:1:{s:39:"SilverStripe\Assets\Shortcodes\FileLink";a:2:{s:7:"extends";a:1:{i:0;s:27:"SilverStripe\ORM\DataObject";}s:10:"interfaces";a:0:{}}}s:10:"interfaces";a:0:{}s:6:"traits";a:0:{}}

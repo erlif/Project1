@@ -1,0 +1,3 @@
+0
+SiteTree_php_26722bf280241f1c4c8d769d783b5cf7
+a:3:{s:7:"classes";a:1:{s:31:"SilverStripe\CMS\Model\SiteTree";a:2:{s:7:"extends";a:1:{i:0;s:27:"SilverStripe\ORM\DataObject";}s:10:"interfaces";a:6:{i:0;s:40:"SilverStripe\Security\PermissionProvider";i:1;s:36:"SilverStripe\i18n\i18nEntityProvider";i:2;s:31:"SilverStripe\ORM\CMSPreviewable";i:3;s:28:"SilverStripe\Core\Resettable";i:4;s:27:"SilverStripe\Core\Flushable";i:5;s:42:"SilverStripe\Core\Cache\MemberCacheFlusher";}}}s:10:"interfaces";a:0:{}s:6:"traits";a:0:{}}

@@ -1,0 +1,3 @@
+0
+SearchFilterable_php_b2de0356a40d92d8f6159c6ad109a1cb
+a:3:{s:7:"classes";a:0:{}s:10:"interfaces";a:0:{}s:6:"traits";a:1:{s:41:"SilverStripe\ORM\Filters\SearchFilterable";a:0:{}}}

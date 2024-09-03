@@ -1,0 +1,3 @@
+0
+DatabaseException_php_641efa88d1f48ed6381fffcb5370e725
+a:3:{s:7:"classes";a:1:{s:42:"SilverStripe\ORM\Connect\DatabaseException";a:2:{s:7:"extends";a:1:{i:0;s:9:"Exception";}s:10:"interfaces";a:0:{}}}s:10:"interfaces";a:0:{}s:6:"traits";a:0:{}}

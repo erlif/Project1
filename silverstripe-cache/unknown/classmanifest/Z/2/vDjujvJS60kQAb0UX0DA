@@ -1,0 +1,3 @@
+0
+GetParameter_php_b6a8bad67ea6e5237163991ce1b5dfac
+a:3:{s:7:"classes";a:1:{s:67:"SilverStripe\Control\Middleware\ConfirmationMiddleware\GetParameter";a:2:{s:7:"extends";a:0:{}s:10:"interfaces";a:2:{i:0;s:59:"SilverStripe\Control\Middleware\ConfirmationMiddleware\Rule";i:1;s:61:"SilverStripe\Control\Middleware\ConfirmationMiddleware\Bypass";}}}s:10:"interfaces";a:0:{}s:6:"traits";a:0:{}}

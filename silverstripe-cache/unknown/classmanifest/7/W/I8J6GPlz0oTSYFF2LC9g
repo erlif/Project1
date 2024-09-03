@@ -1,0 +1,3 @@
+0
+Deprecation_php_032de2812558a9c5e642054d8089a839
+a:3:{s:7:"classes";a:1:{s:28:"SilverStripe\Dev\Deprecation";a:2:{s:7:"extends";a:0:{}s:10:"interfaces";a:0:{}}}s:10:"interfaces";a:0:{}s:6:"traits";a:0:{}}

@@ -1,0 +1,3 @@
+0
+GridFieldDetailForm_ItemRequest_php_c720d6c112548c6bdf11a4b9c890eeb0
+a:3:{s:7:"classes";a:1:{s:60:"SilverStripe\Forms\GridField\GridFieldDetailForm_ItemRequest";a:2:{s:7:"extends";a:1:{i:0;s:35:"SilverStripe\Control\RequestHandler";}s:10:"interfaces";a:0:{}}}s:10:"interfaces";a:0:{}s:6:"traits";a:0:{}}

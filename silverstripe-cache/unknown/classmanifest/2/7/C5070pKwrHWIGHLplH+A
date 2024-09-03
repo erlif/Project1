@@ -1,0 +1,3 @@
+0
+AjaxBypass_php_731af4d4fd7c3c905e0ccd9b3a247abe
+a:3:{s:7:"classes";a:1:{s:65:"SilverStripe\Control\Middleware\ConfirmationMiddleware\AjaxBypass";a:2:{s:7:"extends";a:0:{}s:10:"interfaces";a:1:{i:0;s:61:"SilverStripe\Control\Middleware\ConfirmationMiddleware\Bypass";}}}s:10:"interfaces";a:0:{}s:6:"traits";a:0:{}}

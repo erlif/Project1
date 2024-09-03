@@ -1,0 +1,3 @@
+0
+FormMessageBootstrapAdapter_php_3a9db4fc901e971eeed58e711c569e6a
+a:3:{s:7:"classes";a:1:{s:48:"SilverStripe\Forms\FormMessageBootstrapExtension";a:2:{s:7:"extends";a:1:{i:0;s:27:"SilverStripe\Core\Extension";}s:10:"interfaces";a:0:{}}}s:10:"interfaces";a:0:{}s:6:"traits";a:0:{}}

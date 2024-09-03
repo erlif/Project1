@@ -1,0 +1,3 @@
+0
+WorkflowReminderJob_php_f23708149ce09f5d5d96581a7461fba9
+a:3:{s:7:"classes";a:1:{s:50:"Symbiote\AdvancedWorkflow\Jobs\WorkflowReminderJob";a:2:{s:7:"extends";a:1:{i:0;s:46:"Symbiote\QueuedJobs\Services\AbstractQueuedJob";}s:10:"interfaces";a:0:{}}}s:10:"interfaces";a:0:{}s:6:"traits";a:0:{}}

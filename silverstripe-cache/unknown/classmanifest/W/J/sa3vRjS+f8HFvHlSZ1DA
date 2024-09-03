@@ -1,0 +1,3 @@
+0
+DefaultResolverStrategy_php_36fd63228ba74639988c1c20be14749b
+a:3:{s:7:"classes";a:1:{s:60:"SilverStripe\GraphQL\Schema\Resolver\DefaultResolverStrategy";a:2:{s:7:"extends";a:0:{}s:10:"interfaces";a:0:{}}}s:10:"interfaces";a:0:{}s:6:"traits";a:0:{}}

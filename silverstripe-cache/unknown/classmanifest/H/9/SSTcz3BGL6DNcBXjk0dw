@@ -1,0 +1,3 @@
+0
+DevErrorHandler_php_6d218ddf4b70973f6298aeb3fc7e23c6
+a:3:{s:7:"classes";a:1:{s:49:"SilverStripe\GraphQL\QueryHandler\DevErrorHandler";a:2:{s:7:"extends";a:0:{}s:10:"interfaces";a:0:{}}}s:10:"interfaces";a:0:{}s:6:"traits";a:0:{}}

@@ -1,0 +1,3 @@
+0
+SchemaValidator_php_cc4c3d57b7f44780d7f53219f74f494e
+a:3:{s:7:"classes";a:0:{}s:10:"interfaces";a:1:{s:54:"SilverStripe\GraphQL\Schema\Interfaces\SchemaValidator";a:1:{s:7:"extends";a:0:{}}}s:6:"traits";a:0:{}}

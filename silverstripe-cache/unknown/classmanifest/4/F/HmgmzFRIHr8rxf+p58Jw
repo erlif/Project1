@@ -1,0 +1,3 @@
+0
+VersionFilters_php_3e35a98360fd41162b4b62f0946c852f
+a:3:{s:7:"classes";a:1:{s:45:"SilverStripe\GraphQL\Resolvers\VersionFilters";a:2:{s:7:"extends";a:0:{}s:10:"interfaces";a:0:{}}}s:10:"interfaces";a:0:{}s:6:"traits";a:0:{}}

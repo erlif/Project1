@@ -1,0 +1,3 @@
+0
+DeleteCreator_php_198946915a2ac7f349a414394a8b8990
+a:3:{s:7:"classes";a:1:{s:52:"SilverStripe\GraphQL\Schema\DataObject\DeleteCreator";a:2:{s:7:"extends";a:0:{}s:10:"interfaces";a:1:{i:0;s:55:"SilverStripe\GraphQL\Schema\Interfaces\OperationCreator";}}}s:10:"interfaces";a:0:{}s:6:"traits";a:0:{}}

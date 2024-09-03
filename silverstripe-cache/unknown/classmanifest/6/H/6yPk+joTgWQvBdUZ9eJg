@@ -1,0 +1,3 @@
+0
+GridFieldArchiveAction_php_97fc4228972d78a0382efe3ea371432a
+a:3:{s:7:"classes";a:1:{s:45:"SilverStripe\Versioned\GridFieldArchiveAction";a:2:{s:7:"extends";a:0:{}s:10:"interfaces";a:3:{i:0;s:53:"SilverStripe\Forms\GridField\GridField_ColumnProvider";i:1;s:53:"SilverStripe\Forms\GridField\GridField_ActionProvider";i:2;s:53:"SilverStripe\Forms\GridField\GridField_ActionMenuItem";}}}s:10:"interfaces";a:0:{}s:6:"traits";a:0:{}}

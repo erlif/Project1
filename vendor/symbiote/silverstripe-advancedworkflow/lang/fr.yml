@@ -1,0 +1,67 @@
+fr:
+  AdvancedWorkflowAdmin:
+    Title: Titre
+  AllowEditing:
+    NoString: Non
+  AssignUsersToWorkflowAction:
+    GROUPS: Groupes
+    USERS: Utilisateurs
+  NotifyUsersWorkflowAction:
+    EMAILFROM: 'Email de'
+    EMAILSUBJECT: "Sujet de l'email"
+    EMAILTEMPLATE: "Modèle d'e-mail"
+  Symbiote\AdvancedWorkflow\Actions\AssignUsersToWorkflowAction:
+    many_many_Groups: Groupes
+    many_many_Users: Utilisateurs
+  Symbiote\AdvancedWorkflow\Actions\NotifyUsersWorkflowAction:
+    db_EmailFrom: 'Email de'
+    db_EmailSubject: "Sujet de l'email"
+    db_EmailTemplate: "Modèle d'e-mail"
+  Symbiote\AdvancedWorkflow\Actions\SetPropertyWorkflowAction:
+    db_Value: Valeur
+  Symbiote\AdvancedWorkflow\DataObjects\ImportedWorkflowTemplate:
+    db_Content: Contenu
+    db_Filename: 'Nom du fichier'
+    db_Name: Nom
+  Symbiote\AdvancedWorkflow\DataObjects\WorkflowAction:
+    db_Comment: Commentaire
+    db_Sort: Tri
+    db_Title: Titre
+    has_one_Member: Membre
+  Symbiote\AdvancedWorkflow\DataObjects\WorkflowActionInstance:
+    db_Comment: Commentaire
+    has_one_Member: Membre
+  Symbiote\AdvancedWorkflow\DataObjects\WorkflowDefinition:
+    db_Sort: Tri
+    db_Title: Titre
+    many_many_Groups: Groupes
+    many_many_Users: Utilisateurs
+  Symbiote\AdvancedWorkflow\DataObjects\WorkflowInstance:
+    db_Title: Titre
+    many_many_Groups: Groupes
+    many_many_Users: Utilisateurs
+  Symbiote\AdvancedWorkflow\DataObjects\WorkflowTransition:
+    db_Sort: Tri
+    db_Title: Titre
+    many_many_Groups: Groupes
+    many_many_Users: Utilisateurs
+  WorkflowAction:
+    Author: Auteur
+    COMMENT: Commentaire
+    CommentLabel: Commentaire
+    FRONTENDCOMMENT: Commentaire
+    TITLE: Titre
+  WorkflowActionInstance:
+    Title: Titre
+  WorkflowDefinition:
+    TITLE: Titre
+  WorkflowField:
+    CreateLabel: Créer
+    DeleteAction: Supprimer
+    EditAction: Éditer
+  WorkflowInstance:
+    TitleLabel: Titre
+  WorkflowReminderEmail:
+    HeadingTitle: Titre
+  WorkflowReminderTask:
+    SAVE: Sauvegarder

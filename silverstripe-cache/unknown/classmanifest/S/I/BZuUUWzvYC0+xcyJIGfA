@@ -1,0 +1,3 @@
+0
+ModelTypePlugin_php_aabe9a8f7b51da8fae76e821a02188ef
+a:3:{s:7:"classes";a:0:{}s:10:"interfaces";a:1:{s:54:"SilverStripe\GraphQL\Schema\Interfaces\ModelTypePlugin";a:1:{s:7:"extends";a:1:{i:0;s:54:"SilverStripe\GraphQL\Schema\Interfaces\PluginInterface";}}}s:6:"traits";a:0:{}}

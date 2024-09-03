@@ -1,0 +1,3 @@
+0
+VersionProvider_php_c1423709f64fa4cac5b7a006ea4a9cb4
+a:3:{s:7:"classes";a:1:{s:42:"SilverStripe\Core\Manifest\VersionProvider";a:2:{s:7:"extends";a:0:{}s:10:"interfaces";a:0:{}}}s:10:"interfaces";a:0:{}s:6:"traits";a:0:{}}

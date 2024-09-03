@@ -1,0 +1,3 @@
+0
+GarbageCollectionJob_php_3d813ca2d651a2fc68d92857fc28d1fd
+a:3:{s:7:"classes";a:1:{s:53:"SilverStripe\SessionManager\Jobs\GarbageCollectionJob";a:2:{s:7:"extends";a:1:{i:0;s:46:"Symbiote\QueuedJobs\Services\AbstractQueuedJob";}s:10:"interfaces";a:0:{}}}s:10:"interfaces";a:0:{}s:6:"traits";a:0:{}}

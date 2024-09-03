@@ -1,0 +1,3 @@
+0
+ListboxField_php_2ba552e05de9eddfd499c8e9542040f2
+a:3:{s:7:"classes";a:1:{s:31:"SilverStripe\Forms\ListboxField";a:2:{s:7:"extends";a:1:{i:0;s:35:"SilverStripe\Forms\MultiSelectField";}s:10:"interfaces";a:0:{}}}s:10:"interfaces";a:0:{}s:6:"traits";a:0:{}}

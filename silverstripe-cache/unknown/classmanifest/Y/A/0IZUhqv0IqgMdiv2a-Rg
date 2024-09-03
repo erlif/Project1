@@ -1,0 +1,3 @@
+0
+LoggerState_php_b7c40f55430411980d9af40bf5381b5f
+a:3:{s:7:"classes";a:1:{s:34:"SilverStripe\Dev\State\LoggerState";a:2:{s:7:"extends";a:0:{}s:10:"interfaces";a:1:{i:0;s:32:"SilverStripe\Dev\State\TestState";}}}s:10:"interfaces";a:0:{}s:6:"traits";a:0:{}}

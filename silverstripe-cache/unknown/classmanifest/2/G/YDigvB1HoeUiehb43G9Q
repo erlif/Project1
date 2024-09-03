@@ -1,0 +1,3 @@
+0
+BlockArchiveExtension_php_e6ee563b39957482e32dbf65029a2493
+a:3:{s:7:"classes";a:1:{s:60:"SilverStripe\VersionedAdmin\Extensions\BlockArchiveExtension";a:2:{s:7:"extends";a:1:{i:0;s:30:"SilverStripe\ORM\DataExtension";}s:10:"interfaces";a:1:{i:0;s:58:"SilverStripe\VersionedAdmin\Interfaces\ArchiveViewProvider";}}}s:10:"interfaces";a:0:{}s:6:"traits";a:0:{}}

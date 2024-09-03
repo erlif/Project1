@@ -1,0 +1,3 @@
+0
+ModelCreator_php_fcc89981a58bc48b1c8b6233cbf3d2d7
+a:3:{s:7:"classes";a:1:{s:51:"SilverStripe\GraphQL\Schema\DataObject\ModelCreator";a:2:{s:7:"extends";a:0:{}s:10:"interfaces";a:1:{i:0;s:66:"SilverStripe\GraphQL\Schema\Interfaces\SchemaModelCreatorInterface";}}}s:10:"interfaces";a:0:{}s:6:"traits";a:0:{}}

@@ -1,0 +1,3 @@
+0
+CLI_php_680ec81202335cc6681857454a408a0e
+a:3:{s:7:"classes";a:1:{s:20:"SilverStripe\Dev\CLI";a:2:{s:7:"extends";a:0:{}s:10:"interfaces";a:0:{}}}s:10:"interfaces";a:0:{}s:6:"traits";a:0:{}}

@@ -1,0 +1,3 @@
+0
+HTTPMethodMiddleware_php_0cb4f1ea7a759542803882afcafc6cfb
+a:3:{s:7:"classes";a:1:{s:52:"SilverStripe\GraphQL\Middleware\HTTPMethodMiddleware";a:2:{s:7:"extends";a:0:{}s:10:"interfaces";a:1:{i:0;s:47:"SilverStripe\GraphQL\Middleware\QueryMiddleware";}}}s:10:"interfaces";a:0:{}s:6:"traits";a:0:{}}

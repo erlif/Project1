@@ -1,0 +1,3 @@
+0
+BulkLoaderSet_php_45a419e76b12a6af62a472d8046573ec
+a:3:{s:7:"classes";a:1:{s:52:"SilverStripe\GraphQL\Schema\BulkLoader\BulkLoaderSet";a:2:{s:7:"extends";a:0:{}s:10:"interfaces";a:1:{i:0;s:59:"SilverStripe\GraphQL\Schema\Interfaces\ConfigurationApplier";}}}s:10:"interfaces";a:0:{}s:6:"traits";a:0:{}}

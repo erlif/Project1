@@ -1,0 +1,3 @@
+0
+FilterInterface_php_7c1991dd5e12241a95ad06e213514ccf
+a:3:{s:7:"classes";a:0:{}s:10:"interfaces";a:1:{s:41:"SilverStripe\View\Parsers\FilterInterface";a:1:{s:7:"extends";a:0:{}}}s:6:"traits";a:0:{}}

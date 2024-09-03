@@ -1,0 +1,3 @@
+0
+QueryRecorderExtension_php_44add4f560e27d5abe7430f3eea7f613
+a:3:{s:7:"classes";a:1:{s:54:"SilverStripe\GraphQL\Extensions\QueryRecorderExtension";a:2:{s:7:"extends";a:1:{i:0;s:30:"SilverStripe\ORM\DataExtension";}s:10:"interfaces";a:0:{}}}s:10:"interfaces";a:0:{}s:6:"traits";a:0:{}}

@@ -1,0 +1,3 @@
+0
+AboutController_php_a5cdd0160b11ea837106a486ccd6475c
+a:3:{s:7:"classes";a:1:{s:15:"AboutController";a:2:{s:7:"extends";a:1:{i:0;s:14:"PageController";}s:10:"interfaces";a:0:{}}}s:10:"interfaces";a:0:{}s:6:"traits";a:0:{}}

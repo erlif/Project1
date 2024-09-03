@@ -1,0 +1,3 @@
+0
+DatabaselessKernel_php_6a06dbc9de28ba44c7026cc92cfff104
+a:3:{s:7:"classes";a:1:{s:36:"SilverStripe\Core\DatabaselessKernel";a:2:{s:7:"extends";a:1:{i:0;s:28:"SilverStripe\Core\BaseKernel";}s:10:"interfaces";a:0:{}}}s:10:"interfaces";a:0:{}s:6:"traits";a:0:{}}

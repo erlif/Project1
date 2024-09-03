@@ -1,0 +1,3 @@
+0
+PaginationPlugin_php_f044aea55c058adb0c9576663222058e
+a:3:{s:7:"classes";a:1:{s:51:"SilverStripe\GraphQL\Schema\Plugin\PaginationPlugin";a:2:{s:7:"extends";a:0:{}s:10:"interfaces";a:2:{i:0;s:50:"SilverStripe\GraphQL\Schema\Interfaces\FieldPlugin";i:1;s:52:"SilverStripe\GraphQL\Schema\Interfaces\SchemaUpdater";}}}s:10:"interfaces";a:0:{}s:6:"traits";a:0:{}}

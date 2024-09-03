@@ -1,0 +1,3 @@
+0
+AbstractQueryFilterPlugin_php_70c99f5fa14fe7cae906c511bf9f96ca
+a:3:{s:7:"classes";a:1:{s:60:"SilverStripe\GraphQL\Schema\Plugin\AbstractQueryFilterPlugin";a:2:{s:7:"extends";a:0:{}s:10:"interfaces";a:2:{i:0;s:52:"SilverStripe\GraphQL\Schema\Interfaces\SchemaUpdater";i:1;s:55:"SilverStripe\GraphQL\Schema\Interfaces\ModelQueryPlugin";}}}s:10:"interfaces";a:0:{}s:6:"traits";a:0:{}}

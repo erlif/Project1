@@ -1,0 +1,79 @@
+sk:
+  AdvancedWorkflowAdmin:
+    Title: Názov
+  AllowEditing:
+    NoString: ' Nie'
+  AssignUsersToWorkflowAction:
+    GROUPS: Skupiny
+    USERS: Používatelia
+  NotifyUsersWorkflowAction:
+    EMAILSUBJECT: Predmet
+    EMAILTEMPLATE: 'E-mailová šablóna'
+  Symbiote\AdvancedWorkflow\Actions\AssignUsersToWorkflowAction:
+    many_many_Groups: Skupiny
+    many_many_Users: Používatelia
+  Symbiote\AdvancedWorkflow\Actions\NotifyUsersWorkflowAction:
+    db_EmailSubject: Predmet
+    db_EmailTemplate: 'E-mailová šablóna'
+  Symbiote\AdvancedWorkflow\Actions\SetPropertyWorkflowAction:
+    db_Value: Hodnota
+  Symbiote\AdvancedWorkflow\DataObjects\ImportedWorkflowTemplate:
+    db_Content: Obsah
+    db_Filename: 'Meno súboru'
+    db_Name: Meno
+  Symbiote\AdvancedWorkflow\DataObjects\WorkflowAction:
+    db_Comment: Komentár
+    db_Sort: Usporiadanie
+    db_Title: Názov
+    db_Type: Typ
+    has_one_Member: Člen
+  Symbiote\AdvancedWorkflow\DataObjects\WorkflowActionInstance:
+    db_Comment: Komentár
+    has_one_Member: Člen
+  Symbiote\AdvancedWorkflow\DataObjects\WorkflowDefinition:
+    db_Description: Popis
+    db_Sort: Usporiadanie
+    db_Title: Názov
+    has_many_Actions: Akcie
+    many_many_Groups: Skupiny
+    many_many_Users: Používatelia
+  Symbiote\AdvancedWorkflow\DataObjects\WorkflowInstance:
+    db_Title: Názov
+    has_many_Actions: Akcie
+    many_many_Groups: Skupiny
+    many_many_Users: Používatelia
+  Symbiote\AdvancedWorkflow\DataObjects\WorkflowTransition:
+    db_Sort: Usporiadanie
+    db_Title: Názov
+    db_Type: Typ
+    many_many_Groups: Skupiny
+    many_many_Users: Používatelia
+  Symbiote\AdvancedWorkflow\Extensions\WorkflowApplicable:
+    has_one_WorkflowDefinition: 'Definícia pracovného toku'
+    many_many_AdditionalWorkflowDefinitions: 'Ďalšie definície pracovného toku'
+  WorkflowAction:
+    Author: Autor
+    COMMENT: Komentár
+    CommentLabel: Komentár
+    FRONTENDCOMMENT: Komentár
+    TITLE: Názov
+    TypeLabel: Typ
+  WorkflowActionInstance:
+    Title: Názov
+  WorkflowDefinition:
+    DESCRIPTION: Popis
+    TITLE: Názov
+  WorkflowField:
+    CreateLabel: Vytvoriť
+    DeleteAction: Vymazať
+    EditAction: Editovať
+  WorkflowInstance:
+    TitleLabel: Názov
+  WorkflowList:
+    TableHeaderActions: Akcie
+  WorkflowReminderEmail:
+    HeadingTitle: Názov
+  WorkflowReminderTask:
+    SAVE: Uložiť
+  WorkflowTransition:
+    TYPE: Typ

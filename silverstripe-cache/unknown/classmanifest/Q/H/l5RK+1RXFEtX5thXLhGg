@@ -1,0 +1,3 @@
+0
+Director_php_2692b008d747ea4630b132489f31af4c
+a:3:{s:7:"classes";a:1:{s:29:"SilverStripe\Control\Director";a:2:{s:7:"extends";a:0:{}s:10:"interfaces";a:1:{i:0;s:40:"SilverStripe\View\TemplateGlobalProvider";}}}s:10:"interfaces";a:0:{}s:6:"traits";a:0:{}}

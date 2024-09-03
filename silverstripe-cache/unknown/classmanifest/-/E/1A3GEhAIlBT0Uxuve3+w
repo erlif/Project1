@@ -1,0 +1,3 @@
+0
+TempDatabase_php_a49ab2b259a516b3ef3ac9120ed1b7bb
+a:3:{s:7:"classes";a:1:{s:37:"SilverStripe\ORM\Connect\TempDatabase";a:2:{s:7:"extends";a:0:{}s:10:"interfaces";a:0:{}}}s:10:"interfaces";a:0:{}s:6:"traits";a:0:{}}

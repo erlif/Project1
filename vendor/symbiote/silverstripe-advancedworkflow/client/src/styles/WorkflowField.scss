@@ -1,0 +1,169 @@
+.workflow-field {
+  position: relative;
+  padding-bottom: 0;
+
+  .workflow-field-header {
+    background: $med-blue;
+    border: 1px solid rgba(0, 0, 0, .1);
+    border-radius: $wf-radius $wf-radius 0 0;
+
+    h3 {
+      background: $dark-blue;
+      border-bottom: 1px solid rgba(0, 0, 0, .1);
+      color: $white;
+      text-shadow: 0 1px 0 rgba(0, 0, 0, .1);
+      margin: 0;
+      padding: $wf-grid;
+    }
+
+    .workflow-field-do-create {
+      margin-left: calc($wf-grid / 2);
+    }
+  }
+
+  .workflow-field-create {
+    padding: calc($wf-grid / 2) $wf-grid;
+  }
+
+  .workflow-field-actions {
+    background: $white;
+    border: 1px solid rgba(0, 0, 0, .2);
+    border-top: 0;
+    border-radius: 0 0 $wf-radius $wf-radius;
+    padding: $wf-grid;
+
+    .workflow-field-action {
+      margin-bottom: calc($wf-grid / 2);
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+
+      .workflow-field-action-disabled {
+        opacity: 0.35;
+        filter: alpha(Opacity=35);
+        cursor: default;
+
+        // These default styles are taken from .ss-ui-button (_forms.scss) so we don't end up with mousover/focus states on disabled buttons.
+        // @todo These styles need to be dynamcally included from CMS, they are obviousely "hard-coded" for now.
+        &.ui-state-hover,
+        &.ui-state-focus {
+          text-decoration: none;
+          background: linear-gradient($white, $grey-lightish);
+          text-shadow: $white 0 1px 1px;
+          -webkit-box-shadow: none;
+          -moz-box-shadow: none;
+          box-shadow: none;
+        }
+      }
+    }
+
+    .workflow-field-action-header {
+      background: $light-blue;
+      border: 1px solid $med-blue;
+      border-left: 0;
+      overflow: auto;
+      padding: calc($wf-grid / 4) $wf-grid calc($wf-grid / 4) 0;
+
+      .workflow-field-action-icon,
+      .workflow-field-action-drag {
+        display: block;
+        float: left;
+      }
+
+      .workflow-field-action-drag {
+        background: $med-blue;
+        cursor: move;
+        margin: -(calc($wf-grid / 4)) 0;
+        width: 4px;
+        height: $wf-height + calc($wf-grid / 2) + 4;
+      }
+
+      .workflow-field-action-icon {
+        width: 16px;
+        height: 16px;
+        margin: calc($wf-height / 4) $wf-grid 0;
+      }
+
+      h4 {
+        float: left;
+        margin: calc($wf-height / 4) $wf-grid 0 0;
+        min-width: $wf-min-width;
+        text-shadow: 0 1px 0 rgba(255, 255, 255, 0.4);
+      }
+    }
+
+    .workflow-field-action-transitions {
+      padding-left: 0;
+
+      li {
+        background: $light-grey;
+        border: 1px solid $light-blue;
+        border-left: 0;
+        border-top: 0;
+        overflow: auto;
+        padding: calc($wf-grid / 2) calc($wf-grid / 2) calc($wf-grid / 2) 0;
+
+        .workflow-field-action-drag {
+          background: $light-blue;
+          cursor: move;
+          float: left;
+          margin: -(calc($wf-grid / 2)) 0;
+          width: 4px;
+          height: 41px;
+        }
+
+        .workflow-field-transition-title {
+          float: left;
+          min-width: $wf-min-width + 30px;
+          overflow: auto;
+        }
+
+        .workflow-field-transition-text {
+          margin-top: 6px;
+        }
+
+        span {
+          float: left;
+        }
+
+        .workflow-transition-actions {
+          display: inline;
+          float: none;
+        }
+      }
+    }
+  }
+
+  .workflow-placeholder {
+    margin-bottom: calc($wf-grid / 2);
+    height: calc($wf-grid * 4);
+  }
+
+  .workflow-field-loading {
+    background: rgba(0, 0, 0, .15) url("../images/spinner.gif") no-repeat center center;
+    border-radius: 0 0 $wf-radius $wf-radius;
+    inset: 0;
+    display: none;
+    position: absolute;
+    z-index: 999;
+  }
+}
+
+.cms {
+  table.ss-gridfield-table {
+    .btn-icon-download-csv {
+      display: inline-block;
+      vertical-align: middle;
+      width: 16px;
+      height: 16px;
+      margin: -2px 0 0 10px;
+    }
+  }
+
+  .workflow-field-editor-dialog {
+    .tab-content {
+      clear: both;
+    }
+  }
+}

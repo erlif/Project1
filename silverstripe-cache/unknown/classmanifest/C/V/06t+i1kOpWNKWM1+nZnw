@@ -1,0 +1,3 @@
+0
+SilverStripeNavigatorItem_LiveLink_php_fa6ed23a830d2a8b36841d5cf88c7b35
+a:3:{s:7:"classes";a:1:{s:72:"SilverStripe\VersionedAdmin\Navigator\SilverStripeNavigatorItem_LiveLink";a:2:{s:7:"extends";a:1:{i:0;s:54:"SilverStripe\Admin\Navigator\SilverStripeNavigatorItem";}s:10:"interfaces";a:0:{}}}s:10:"interfaces";a:0:{}s:6:"traits";a:0:{}}

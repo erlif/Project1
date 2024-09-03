@@ -1,0 +1,3 @@
+0
+ResolverReference_php_4969978a71a80c16ba8cc9d9807fead0
+a:3:{s:7:"classes";a:1:{s:54:"SilverStripe\GraphQL\Schema\Resolver\ResolverReference";a:2:{s:7:"extends";a:0:{}s:10:"interfaces";a:0:{}}}s:10:"interfaces";a:0:{}s:6:"traits";a:0:{}}

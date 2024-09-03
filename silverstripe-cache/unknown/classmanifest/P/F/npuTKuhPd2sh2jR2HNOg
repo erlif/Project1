@@ -1,0 +1,3 @@
+0
+CampaignAdminExtension_php_c7c76f6135e0c6c160951c3d5a01fe30
+a:3:{s:7:"classes";a:1:{s:49:"SilverStripe\CampaignAdmin\CampaignAdminExtension";a:2:{s:7:"extends";a:1:{i:0;s:27:"SilverStripe\Core\Extension";}s:10:"interfaces";a:0:{}}}s:10:"interfaces";a:0:{}s:6:"traits";a:0:{}}

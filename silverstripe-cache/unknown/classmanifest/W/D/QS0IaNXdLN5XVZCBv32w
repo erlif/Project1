@@ -1,0 +1,3 @@
+0
+GridFieldToolbarHeader_php_67141260d7b7542c337a765160180e54
+a:3:{s:7:"classes";a:1:{s:51:"SilverStripe\Forms\GridField\GridFieldToolbarHeader";a:2:{s:7:"extends";a:1:{i:0;s:55:"SilverStripe\Forms\GridField\AbstractGridFieldComponent";}s:10:"interfaces";a:1:{i:0;s:51:"SilverStripe\Forms\GridField\GridField_HTMLProvider";}}}s:10:"interfaces";a:0:{}s:6:"traits";a:0:{}}

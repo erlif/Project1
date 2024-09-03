@@ -1,0 +1,3 @@
+0
+QueryCollector_php_e3c02ee55125b21f4fe37468b5f72254
+a:3:{s:7:"classes";a:1:{s:60:"SilverStripe\GraphQL\Schema\DataObject\Plugin\QueryCollector";a:2:{s:7:"extends";a:0:{}s:10:"interfaces";a:0:{}}}s:10:"interfaces";a:0:{}s:6:"traits";a:0:{}}

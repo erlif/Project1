@@ -1,0 +1,3 @@
+0
+InterfaceType_php_a78faa0d6e3e3ea531f48c0fb78fa83f
+a:3:{s:7:"classes";a:1:{s:46:"SilverStripe\GraphQL\Schema\Type\InterfaceType";a:2:{s:7:"extends";a:1:{i:0;s:37:"SilverStripe\GraphQL\Schema\Type\Type";}s:10:"interfaces";a:0:{}}}s:10:"interfaces";a:0:{}s:6:"traits";a:0:{}}

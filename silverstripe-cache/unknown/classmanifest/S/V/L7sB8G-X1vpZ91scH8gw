@@ -1,0 +1,3 @@
+0
+CategoryAdmin_php_58fa98e8040b36c45471ad1944fc3a5e
+a:3:{s:7:"classes";a:1:{s:13:"CategoryAdmin";a:2:{s:7:"extends";a:1:{i:0;s:29:"SilverStripe\Admin\ModelAdmin";}s:10:"interfaces";a:0:{}}}s:10:"interfaces";a:0:{}s:6:"traits";a:0:{}}

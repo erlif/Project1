@@ -1,0 +1,3 @@
+0
+GridFieldFilterHeader_php_9863f1569d4dea945314da766913947d
+a:3:{s:7:"classes";a:1:{s:50:"SilverStripe\Forms\GridField\GridFieldFilterHeader";a:2:{s:7:"extends";a:1:{i:0;s:55:"SilverStripe\Forms\GridField\AbstractGridFieldComponent";}s:10:"interfaces";a:5:{i:0;s:49:"SilverStripe\Forms\GridField\GridField_URLHandler";i:1;s:51:"SilverStripe\Forms\GridField\GridField_HTMLProvider";i:2;s:54:"SilverStripe\Forms\GridField\GridField_DataManipulator";i:3;s:53:"SilverStripe\Forms\GridField\GridField_ActionProvider";i:4;s:52:"SilverStripe\Forms\GridField\GridField_StateProvider";}}}s:10:"interfaces";a:0:{}s:6:"traits";a:0:{}}

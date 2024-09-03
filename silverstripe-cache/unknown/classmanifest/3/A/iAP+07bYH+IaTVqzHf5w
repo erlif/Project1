@@ -1,0 +1,3 @@
+0
+GridFieldDetailForm_php_9bc048f241f59e460b833a18e6f85890
+a:3:{s:7:"classes";a:1:{s:48:"SilverStripe\Forms\GridField\GridFieldDetailForm";a:2:{s:7:"extends";a:1:{i:0;s:55:"SilverStripe\Forms\GridField\AbstractGridFieldComponent";}s:10:"interfaces";a:1:{i:0;s:49:"SilverStripe\Forms\GridField\GridField_URLHandler";}}}s:10:"interfaces";a:0:{}s:6:"traits";a:0:{}}

@@ -1,0 +1,3 @@
+0
+ChangeSet_php_c07d602e48472533578281e172a7f2b7
+a:3:{s:7:"classes";a:1:{s:32:"SilverStripe\Versioned\ChangeSet";a:2:{s:7:"extends";a:1:{i:0;s:27:"SilverStripe\ORM\DataObject";}s:10:"interfaces";a:0:{}}}s:10:"interfaces";a:0:{}s:6:"traits";a:0:{}}

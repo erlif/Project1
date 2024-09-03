@@ -1,0 +1,3 @@
+0
+Handler_php_084430aaa5981b3f8decbfcd91aaf9b0
+a:3:{s:7:"classes";a:1:{s:33:"SilverStripe\GraphQL\Auth\Handler";a:2:{s:7:"extends";a:0:{}s:10:"interfaces";a:0:{}}}s:10:"interfaces";a:0:{}s:6:"traits";a:0:{}}

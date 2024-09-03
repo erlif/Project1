@@ -1,0 +1,3 @@
+0
+PublicAdapter_php_6963aae84414da8931f81b6064de320b
+a:3:{s:7:"classes";a:0:{}s:10:"interfaces";a:1:{s:43:"SilverStripe\Assets\Flysystem\PublicAdapter";a:1:{s:7:"extends";a:1:{i:0;s:34:"League\Flysystem\FilesystemAdapter";}}}s:6:"traits";a:0:{}}

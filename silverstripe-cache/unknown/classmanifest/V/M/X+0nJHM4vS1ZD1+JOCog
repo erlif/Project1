@@ -1,0 +1,3 @@
+0
+ResolverFailure_php_ed98a8a6bd16a2d71d98483895a1f2f7
+a:3:{s:7:"classes";a:1:{s:53:"SilverStripe\GraphQL\Schema\Exception\ResolverFailure";a:2:{s:7:"extends";a:1:{i:0;s:9:"Exception";}s:10:"interfaces";a:0:{}}}s:10:"interfaces";a:0:{}s:6:"traits";a:0:{}}

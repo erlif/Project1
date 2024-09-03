@@ -1,0 +1,3 @@
+0
+HomeCategory_php_c29c94d6eff905f4af88b3525ec9084b
+a:3:{s:7:"classes";a:1:{s:12:"HomeCategory";a:2:{s:7:"extends";a:1:{i:0;s:27:"SilverStripe\ORM\DataObject";}s:10:"interfaces";a:0:{}}}s:10:"interfaces";a:0:{}s:6:"traits";a:0:{}}

@@ -1,0 +1,3 @@
+0
+LinkablePlugin_php_108bd0c129fadcd3e952f1d09543c0af
+a:3:{s:7:"classes";a:1:{s:39:"SilverStripe\CMS\GraphQL\LinkablePlugin";a:2:{s:7:"extends";a:0:{}s:10:"interfaces";a:1:{i:0;s:55:"SilverStripe\GraphQL\Schema\Interfaces\ModelQueryPlugin";}}}s:10:"interfaces";a:0:{}s:6:"traits";a:0:{}}

@@ -1,0 +1,3 @@
+0
+SearchFilter_php_a61d45e3febb5173bf1e14826f9772e4
+a:3:{s:7:"classes";a:1:{s:37:"SilverStripe\ORM\Filters\SearchFilter";a:2:{s:7:"extends";a:0:{}s:10:"interfaces";a:0:{}}}s:10:"interfaces";a:0:{}s:6:"traits";a:0:{}}

@@ -1,0 +1,3 @@
+0
+JSONResolver_php_f94965654a85d3952ba91c22c988c20d
+a:3:{s:7:"classes";a:1:{s:49:"SilverStripe\GraphQL\Schema\Resolver\JSONResolver";a:2:{s:7:"extends";a:0:{}s:10:"interfaces";a:0:{}}}s:10:"interfaces";a:0:{}s:6:"traits";a:0:{}}

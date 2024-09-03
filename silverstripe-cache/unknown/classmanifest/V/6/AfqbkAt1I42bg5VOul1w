@@ -1,0 +1,3 @@
+0
+MemberPassword_php_47b2d4f8b535b9ed64a0a8e8e0048e5d
+a:3:{s:7:"classes";a:1:{s:36:"SilverStripe\Security\MemberPassword";a:2:{s:7:"extends";a:1:{i:0;s:27:"SilverStripe\ORM\DataObject";}s:10:"interfaces";a:0:{}}}s:10:"interfaces";a:0:{}s:6:"traits";a:0:{}}

@@ -1,0 +1,3 @@
+0
+SecurityAdmin_php_dbcd82989a617c7b47c441d9f1af4d3e
+a:3:{s:7:"classes";a:1:{s:32:"SilverStripe\Admin\SecurityAdmin";a:2:{s:7:"extends";a:1:{i:0;s:29:"SilverStripe\Admin\ModelAdmin";}s:10:"interfaces";a:1:{i:0;s:40:"SilverStripe\Security\PermissionProvider";}}}s:10:"interfaces";a:0:{}s:6:"traits";a:0:{}}

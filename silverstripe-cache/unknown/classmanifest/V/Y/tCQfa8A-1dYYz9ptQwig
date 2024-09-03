@@ -1,0 +1,3 @@
+0
+i18n_php_f828132c580fb835c1b2ebd1110ca40d
+a:3:{s:7:"classes";a:1:{s:22:"SilverStripe\i18n\i18n";a:2:{s:7:"extends";a:0:{}s:10:"interfaces";a:1:{i:0;s:40:"SilverStripe\View\TemplateGlobalProvider";}}}s:10:"interfaces";a:0:{}s:6:"traits";a:0:{}}

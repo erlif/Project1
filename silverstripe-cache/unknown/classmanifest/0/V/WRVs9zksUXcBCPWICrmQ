@@ -1,0 +1,3 @@
+0
+Collection_php_f2fad2cbddbccb725696ed96bc8aebee
+a:3:{s:7:"classes";a:1:{s:49:"SilverStripe\GraphQL\Schema\BulkLoader\Collection";a:2:{s:7:"extends";a:0:{}s:10:"interfaces";a:0:{}}}s:10:"interfaces";a:0:{}s:6:"traits";a:0:{}}

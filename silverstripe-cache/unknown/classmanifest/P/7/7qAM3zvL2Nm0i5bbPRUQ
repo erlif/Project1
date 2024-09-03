@@ -1,0 +1,3 @@
+0
+SessionEnvTypeSwitcher_php_0dd2fa3b27173f89442fb2de0536856a
+a:3:{s:7:"classes";a:0:{}s:10:"interfaces";a:0:{}s:6:"traits";a:1:{s:76:"SilverStripe\Control\Middleware\URLSpecialsMiddleware\SessionEnvTypeSwitcher";a:0:{}}}

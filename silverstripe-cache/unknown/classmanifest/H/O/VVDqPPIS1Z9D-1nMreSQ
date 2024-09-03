@@ -1,0 +1,3 @@
+0
+BasicAuth_php_19ae76bbef4b74608ac60afd8e7bf33e
+a:3:{s:7:"classes";a:1:{s:31:"SilverStripe\Security\BasicAuth";a:2:{s:7:"extends";a:0:{}s:10:"interfaces";a:0:{}}}s:10:"interfaces";a:0:{}s:6:"traits";a:0:{}}

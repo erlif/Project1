@@ -1,0 +1,3 @@
+0
+CompositeFlushDiscoverer_php_ab7285389f826e487a1e17cdef345fc9
+a:3:{s:7:"classes";a:1:{s:50:"SilverStripe\Core\Startup\CompositeFlushDiscoverer";a:2:{s:7:"extends";a:1:{i:0;s:13:"ArrayIterator";}s:10:"interfaces";a:1:{i:0;s:41:"SilverStripe\Core\Startup\FlushDiscoverer";}}}s:10:"interfaces";a:0:{}s:6:"traits";a:0:{}}

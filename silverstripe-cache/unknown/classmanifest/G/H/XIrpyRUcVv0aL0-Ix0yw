@@ -1,0 +1,3 @@
+0
+Kernel_php_17b3921ebdba8b69814b72210f424bec
+a:3:{s:7:"classes";a:0:{}s:10:"interfaces";a:1:{s:24:"SilverStripe\Core\Kernel";a:1:{s:7:"extends";a:0:{}}}s:6:"traits";a:0:{}}

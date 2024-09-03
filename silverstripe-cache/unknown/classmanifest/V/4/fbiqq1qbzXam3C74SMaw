@@ -1,0 +1,3 @@
+0
+PermissionAwareConfirmationMiddleware_php_90ed96b0f805e0ee18d934f4b14ffc7b
+a:3:{s:7:"classes";a:1:{s:69:"SilverStripe\Control\Middleware\PermissionAwareConfirmationMiddleware";a:2:{s:7:"extends";a:1:{i:0;s:54:"SilverStripe\Control\Middleware\ConfirmationMiddleware";}s:10:"interfaces";a:0:{}}}s:10:"interfaces";a:0:{}s:6:"traits";a:0:{}}

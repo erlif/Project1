@@ -1,0 +1,3 @@
+0
+WorkflowDefinitionExporter_php_48198335a19fa22679bf8985587b1a4e
+a:3:{s:7:"classes";a:1:{s:58:"Symbiote\AdvancedWorkflow\Admin\WorkflowDefinitionExporter";a:2:{s:7:"extends";a:0:{}s:10:"interfaces";a:0:{}}}s:10:"interfaces";a:0:{}s:6:"traits";a:0:{}}

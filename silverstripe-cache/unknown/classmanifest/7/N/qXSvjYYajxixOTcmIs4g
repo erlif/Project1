@@ -1,0 +1,3 @@
+0
+FieldPlugin_php_1903807ee71cb2a06b4320d1249e3c7f
+a:3:{s:7:"classes";a:0:{}s:10:"interfaces";a:1:{s:50:"SilverStripe\GraphQL\Schema\Interfaces\FieldPlugin";a:1:{s:7:"extends";a:1:{i:0;s:54:"SilverStripe\GraphQL\Schema\Interfaces\PluginInterface";}}}s:6:"traits";a:0:{}}

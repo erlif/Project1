@@ -1,0 +1,3 @@
+0
+GridState_Component_php_ffb391a6d14f6f27e7452044279b4d99
+a:3:{s:7:"classes";a:1:{s:48:"SilverStripe\Forms\GridField\GridState_Component";a:2:{s:7:"extends";a:1:{i:0;s:55:"SilverStripe\Forms\GridField\AbstractGridFieldComponent";}s:10:"interfaces";a:1:{i:0;s:51:"SilverStripe\Forms\GridField\GridField_HTMLProvider";}}}s:10:"interfaces";a:0:{}s:6:"traits";a:0:{}}

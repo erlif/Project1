@@ -1,0 +1,3 @@
+0
+ModelFieldPlugin_php_e4704089778857697608d55c72daa8ce
+a:3:{s:7:"classes";a:0:{}s:10:"interfaces";a:1:{s:55:"SilverStripe\GraphQL\Schema\Interfaces\ModelFieldPlugin";a:1:{s:7:"extends";a:1:{i:0;s:54:"SilverStripe\GraphQL\Schema\Interfaces\PluginInterface";}}}s:6:"traits";a:0:{}}

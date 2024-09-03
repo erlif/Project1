@@ -1,0 +1,3 @@
+0
+CMSBatchAction_php_28c8394a27d2ff75f684d595c18efe34
+a:3:{s:7:"classes";a:1:{s:33:"SilverStripe\Admin\CMSBatchAction";a:2:{s:7:"extends";a:0:{}s:10:"interfaces";a:0:{}}}s:10:"interfaces";a:0:{}s:6:"traits";a:0:{}}

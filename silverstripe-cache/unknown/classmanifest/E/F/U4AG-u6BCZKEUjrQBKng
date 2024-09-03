@@ -1,0 +1,3 @@
+0
+BaseKernel_php_42d77de45fd72425270945eb4b69b42c
+a:3:{s:7:"classes";a:1:{s:28:"SilverStripe\Core\BaseKernel";a:2:{s:7:"extends";a:0:{}s:10:"interfaces";a:1:{i:0;s:24:"SilverStripe\Core\Kernel";}}}s:10:"interfaces";a:0:{}s:6:"traits";a:0:{}}

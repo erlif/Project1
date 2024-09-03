@@ -1,0 +1,3 @@
+0
+PathAware_php_4545cf768d23032b465040d3e50080d3
+a:3:{s:7:"classes";a:0:{}s:10:"interfaces";a:0:{}s:6:"traits";a:1:{s:64:"SilverStripe\Control\Middleware\ConfirmationMiddleware\PathAware";a:0:{}}}

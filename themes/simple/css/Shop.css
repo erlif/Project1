@@ -1,0 +1,186 @@
+
+.i {
+    size: 70%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    font: Poppins;
+}
+
+
+.bg{
+    background-color: #b3b1b100;
+}
+
+
+.tab-interface button {
+    background: none;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: color 0.3s, background-color 0.3s;
+}
+
+.tab-interface button:hover,
+.tab-interface button:focus {
+    background-color: #f0f0f0; /* Warna latar belakang saat hover */
+}
+
+.tab-interface button:active {
+    background-color: black; /* Warna latar belakang saat ditekan */
+    color: white; /* Ubah warna teks menjadi putih */
+}
+
+.tab-interface button[aria-selected="true"] {
+    border-bottom: 2px solid #000; /* Indikator tab yang dipilih */
+    font-weight: bold;
+}
+
+.tab-interface button[aria-selected="false"] {
+    border-bottom: none;
+}
+
+.btn:focus,.btn:active .btn {
+    outline: none !important;
+    box-shadow: none;
+ }
+
+
+ .wrapper{
+    height: 50px;
+    min-width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    border-radius: 12px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0,0.2);
+ }
+ .wrapper span{
+    width: 20%;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    background-color: #f0f0f0;
+    outline-color: 20px;
+    cursor: pointer;
+ }
+
+
+ .wrapper span .num{
+    font-size: 50px;
+    border-right: 2px solid rgba(0, 0, 0, 0,0.2);
+    border-left: 2px solid rgba(0, 0, 0, 0,0.2);
+    pointer-events: none;
+ }
+
+
+
+ .quantity {
+    display: flex;
+    justify-content: center;
+}
+
+.quantity button {
+    width: 45px;
+    height: 45px;
+    border: 1px solid #000;
+    color: #000;
+    border-radius: 0;
+    background: #fff
+}
+
+.quantity input {
+    border: none;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    text-align: center;
+    width: 100px;
+    font-size: 20px;
+    color: #000;
+    font-weight: 300;
+}
+
+.total-price {
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+}
+
+.total-price  {
+    display: inline-block;
+    font-size: 90%;
+    margin-right: 5px;
+}
+
+
+.nav-link{
+    color: #000 !important;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #f0f0f0 !important;
+}
+
+
+
+@media (max-width: 390px) {
+    .cart-item-title {
+      transform: scale(0.8);
+    }
+  }
+
+
+@media (max-width: 780px  ) {
+    .kecil {
+        font-size   : 80%;
+    }
+    .gambar{
+        scale: 80%     ;
+        align-items: center;
+    }
+    .dksa{
+        transform: scale(0.7);
+        margin-left: -20px;
+        transform-origin: 20% 0%;
+    }
+
+}
+
+.flex{
+    display: flex;
+}
+@media (min-width: 780px){
+.ksf{
+    margin-left: 1rem !important;
+}
+}
+
+@media (max-width: 770px){
+    .flex{
+        display: block;
+    }
+   
+}
+.sidebar{
+    width: 25%;
+    height: 10vh; 
+    min-height: 200px;
+    overflow: auto;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 5%;
+  }
+

@@ -1,0 +1,3 @@
+0
+PrioritySorter_php_8df501aed6e87110e6a21d68664b5cfc
+a:3:{s:7:"classes";a:1:{s:41:"SilverStripe\Core\Manifest\PrioritySorter";a:2:{s:7:"extends";a:0:{}s:10:"interfaces";a:0:{}}}s:10:"interfaces";a:0:{}s:6:"traits";a:0:{}}

@@ -1,0 +1,3 @@
+0
+SchemaBuilder_php_096fb049a55dd1467609e14c6700e367
+a:3:{s:7:"classes";a:1:{s:41:"SilverStripe\GraphQL\Schema\SchemaBuilder";a:2:{s:7:"extends";a:0:{}s:10:"interfaces";a:0:{}}}s:10:"interfaces";a:0:{}s:6:"traits";a:0:{}}

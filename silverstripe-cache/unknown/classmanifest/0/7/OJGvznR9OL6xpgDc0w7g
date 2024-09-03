@@ -1,0 +1,3 @@
+0
+PjaxResponseNegotiator_php_3edb7f47f40811db3be6583e8ee8601d
+a:3:{s:7:"classes";a:1:{s:43:"SilverStripe\Control\PjaxResponseNegotiator";a:2:{s:7:"extends";a:0:{}s:10:"interfaces";a:0:{}}}s:10:"interfaces";a:0:{}s:6:"traits";a:0:{}}

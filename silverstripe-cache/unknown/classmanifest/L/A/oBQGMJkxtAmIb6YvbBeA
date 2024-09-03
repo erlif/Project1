@@ -1,0 +1,3 @@
+0
+UniqueKeyInterface_php_8293b5e19cf9123d52d7f227bb4945e0
+a:3:{s:7:"classes";a:0:{}s:10:"interfaces";a:1:{s:45:"SilverStripe\ORM\UniqueKey\UniqueKeyInterface";a:1:{s:7:"extends";a:0:{}}}s:6:"traits";a:0:{}}

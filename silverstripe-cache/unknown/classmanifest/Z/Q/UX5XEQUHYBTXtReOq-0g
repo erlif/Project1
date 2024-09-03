@@ -1,0 +1,3 @@
+0
+NaiveNameObfuscator_php_a01e5588fd0d006fdeba7d2886d564db
+a:3:{s:7:"classes";a:1:{s:55:"SilverStripe\GraphQL\Schema\Storage\NaiveNameObfuscator";a:2:{s:7:"extends";a:0:{}s:10:"interfaces";a:1:{i:0;s:50:"SilverStripe\GraphQL\Schema\Storage\NameObfuscator";}}}s:10:"interfaces";a:0:{}s:6:"traits";a:0:{}}

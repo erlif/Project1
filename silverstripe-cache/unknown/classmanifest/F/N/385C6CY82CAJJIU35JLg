@@ -1,0 +1,3 @@
+0
+IntlLocales_php_bd21802b9addcb2dd3db77470f354575
+a:3:{s:7:"classes";a:1:{s:39:"SilverStripe\i18n\Data\Intl\IntlLocales";a:2:{s:7:"extends";a:0:{}s:10:"interfaces";a:2:{i:0;s:30:"SilverStripe\i18n\Data\Locales";i:1;s:28:"SilverStripe\Core\Resettable";}}}s:10:"interfaces";a:0:{}s:6:"traits";a:0:{}}

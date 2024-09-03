@@ -1,0 +1,3 @@
+0
+NaturalFileIDHelper_php_9f2efe739f016800d95793263078b647
+a:3:{s:7:"classes";a:1:{s:55:"SilverStripe\Assets\FilenameParsing\NaturalFileIDHelper";a:2:{s:7:"extends";a:1:{i:0;s:56:"SilverStripe\Assets\FilenameParsing\AbstractFileIDHelper";}s:10:"interfaces";a:0:{}}}s:10:"interfaces";a:0:{}s:6:"traits";a:0:{}}

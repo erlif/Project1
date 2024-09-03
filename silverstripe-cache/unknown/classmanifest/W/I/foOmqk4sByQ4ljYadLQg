@@ -1,0 +1,3 @@
+0
+SudoModeController_php_ee1604114a82b8375b2ef8fece535e87
+a:3:{s:7:"classes";a:1:{s:37:"SilverStripe\Admin\SudoModeController";a:2:{s:7:"extends";a:1:{i:0;s:30:"SilverStripe\Admin\LeftAndMain";}s:10:"interfaces";a:0:{}}}s:10:"interfaces";a:0:{}s:6:"traits";a:0:{}}

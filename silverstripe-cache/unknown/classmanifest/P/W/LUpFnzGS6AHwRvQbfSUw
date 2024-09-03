@@ -1,0 +1,3 @@
+0
+ExtensionLoader_php_d41467fd6f591697b65c2381226bafcd
+a:3:{s:7:"classes";a:1:{s:54:"SilverStripe\GraphQL\Schema\BulkLoader\ExtensionLoader";a:2:{s:7:"extends";a:1:{i:0;s:57:"SilverStripe\GraphQL\Schema\BulkLoader\AbstractBulkLoader";}s:10:"interfaces";a:0:{}}}s:10:"interfaces";a:0:{}s:6:"traits";a:0:{}}

@@ -1,0 +1,3 @@
+0
+AbstractTypeRegistry_php_90bd9230617e8aa78552f8ff41fb1758
+a:3:{s:7:"classes";a:1:{s:56:"SilverStripe\GraphQL\Schema\Storage\AbstractTypeRegistry";a:2:{s:7:"extends";a:0:{}s:10:"interfaces";a:0:{}}}s:10:"interfaces";a:0:{}s:6:"traits";a:0:{}}

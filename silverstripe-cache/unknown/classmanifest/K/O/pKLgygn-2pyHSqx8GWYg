@@ -1,0 +1,3 @@
+0
+TestPage_php_f631ca77190009828bf5de71916cf916
+a:3:{s:7:"classes";a:2:{s:8:"TestPage";a:2:{s:7:"extends";a:1:{i:0;s:4:"Page";}s:10:"interfaces";a:0:{}}s:18:"TestPageController";a:2:{s:7:"extends";a:1:{i:0;s:14:"PageController";}s:10:"interfaces";a:0:{}}}s:10:"interfaces";a:0:{}s:6:"traits";a:0:{}}

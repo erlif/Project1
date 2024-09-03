@@ -1,0 +1,3 @@
+0
+FixtureBlueprint_php_7194a090e2e56bd79ae28707367e19e5
+a:3:{s:7:"classes";a:1:{s:33:"SilverStripe\Dev\FixtureBlueprint";a:2:{s:7:"extends";a:0:{}s:10:"interfaces";a:0:{}}}s:10:"interfaces";a:0:{}s:6:"traits";a:0:{}}

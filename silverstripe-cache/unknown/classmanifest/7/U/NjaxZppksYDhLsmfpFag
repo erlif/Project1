@@ -1,0 +1,3 @@
+0
+MoneyField_php_32d4d6a33067e9a8f24fd19289ad8a8d
+a:3:{s:7:"classes";a:1:{s:29:"SilverStripe\Forms\MoneyField";a:2:{s:7:"extends";a:1:{i:0;s:28:"SilverStripe\Forms\FormField";}s:10:"interfaces";a:0:{}}}s:10:"interfaces";a:0:{}s:6:"traits";a:0:{}}

@@ -1,0 +1,3 @@
+0
+MutationPlugin_php_5d577f11490f37d50943841538a589eb
+a:3:{s:7:"classes";a:0:{}s:10:"interfaces";a:1:{s:53:"SilverStripe\GraphQL\Schema\Interfaces\MutationPlugin";a:1:{s:7:"extends";a:1:{i:0;s:54:"SilverStripe\GraphQL\Schema\Interfaces\PluginInterface";}}}s:6:"traits";a:0:{}}

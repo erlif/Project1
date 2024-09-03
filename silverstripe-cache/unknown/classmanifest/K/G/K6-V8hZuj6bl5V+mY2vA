@@ -1,0 +1,3 @@
+0
+Configuration_php_992d3d27e958f0ba8c8cc0166fe954c5
+a:3:{s:7:"classes";a:1:{s:41:"SilverStripe\GraphQL\Config\Configuration";a:2:{s:7:"extends";a:0:{}s:10:"interfaces";a:0:{}}}s:10:"interfaces";a:0:{}s:6:"traits";a:0:{}}

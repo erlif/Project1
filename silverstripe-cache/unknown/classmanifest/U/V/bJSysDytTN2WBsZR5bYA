@@ -1,0 +1,3 @@
+0
+Type_php_91ed1e5d9dd71a8664dd31dabf9c4055
+a:3:{s:7:"classes";a:1:{s:37:"SilverStripe\GraphQL\Schema\Type\Type";a:2:{s:7:"extends";a:0:{}s:10:"interfaces";a:4:{i:0;s:59:"SilverStripe\GraphQL\Schema\Interfaces\ConfigurationApplier";i:1;s:54:"SilverStripe\GraphQL\Schema\Interfaces\SchemaValidator";i:2;s:56:"SilverStripe\GraphQL\Schema\Interfaces\SignatureProvider";i:3;s:54:"SilverStripe\GraphQL\Schema\Interfaces\SchemaComponent";}}}s:10:"interfaces";a:0:{}s:6:"traits";a:0:{}}

@@ -1,0 +1,3 @@
+0
+DBPercentage_php_6e77406a200f878daf22fda5e6d81706
+a:3:{s:7:"classes";a:1:{s:39:"SilverStripe\ORM\FieldType\DBPercentage";a:2:{s:7:"extends";a:1:{i:0;s:36:"SilverStripe\ORM\FieldType\DBDecimal";}s:10:"interfaces";a:0:{}}}s:10:"interfaces";a:0:{}s:6:"traits";a:0:{}}

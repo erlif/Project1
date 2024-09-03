@@ -1,0 +1,3 @@
+0
+DataObjectSchema_php_b5f2441ccfd5f86d0516816ce3a6ecc1
+a:3:{s:7:"classes";a:1:{s:33:"SilverStripe\ORM\DataObjectSchema";a:2:{s:7:"extends";a:0:{}s:10:"interfaces";a:0:{}}}s:10:"interfaces";a:0:{}s:6:"traits";a:0:{}}

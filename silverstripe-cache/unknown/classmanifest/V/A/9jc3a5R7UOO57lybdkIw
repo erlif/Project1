@@ -1,0 +1,3 @@
+0
+SecurityToken_php_57bf51b17f13cb2a5ac9cc3a8cf89550
+a:3:{s:7:"classes";a:1:{s:35:"SilverStripe\Security\SecurityToken";a:2:{s:7:"extends";a:0:{}s:10:"interfaces";a:1:{i:0;s:40:"SilverStripe\View\TemplateGlobalProvider";}}}s:10:"interfaces";a:0:{}s:6:"traits";a:0:{}}

@@ -1,0 +1,3 @@
+0
+CanViewPermission_php_8843e3433adbec5065b76e8e92eb8108
+a:3:{s:7:"classes";a:1:{s:63:"SilverStripe\GraphQL\Schema\DataObject\Plugin\CanViewPermission";a:2:{s:7:"extends";a:1:{i:0;s:71:"SilverStripe\GraphQL\Schema\DataObject\Plugin\AbstractCanViewPermission";}s:10:"interfaces";a:0:{}}}s:10:"interfaces";a:0:{}s:6:"traits";a:0:{}}

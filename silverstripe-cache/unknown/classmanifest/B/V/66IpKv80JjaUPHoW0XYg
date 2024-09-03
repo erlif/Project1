@@ -1,0 +1,3 @@
+0
+FileWorkflowApplicable_php_1d6b2960e67202ce1dbcb3b73a9f7d47
+a:3:{s:7:"classes";a:1:{s:59:"Symbiote\AdvancedWorkflow\Extensions\FileWorkflowApplicable";a:2:{s:7:"extends";a:1:{i:0;s:55:"Symbiote\AdvancedWorkflow\Extensions\WorkflowApplicable";}s:10:"interfaces";a:0:{}}}s:10:"interfaces";a:0:{}s:6:"traits";a:0:{}}

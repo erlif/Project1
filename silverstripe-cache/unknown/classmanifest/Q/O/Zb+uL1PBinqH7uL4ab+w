@@ -1,0 +1,3 @@
+0
+CreateCreator_php_c8aea7fa1beee51b840aaaed6d79af7c
+a:3:{s:7:"classes";a:1:{s:52:"SilverStripe\GraphQL\Schema\DataObject\CreateCreator";a:2:{s:7:"extends";a:0:{}s:10:"interfaces";a:2:{i:0;s:55:"SilverStripe\GraphQL\Schema\Interfaces\OperationCreator";i:1;s:56:"SilverStripe\GraphQL\Schema\Interfaces\InputTypeProvider";}}}s:10:"interfaces";a:0:{}s:6:"traits";a:0:{}}

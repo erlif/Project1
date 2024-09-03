@@ -1,0 +1,3 @@
+0
+FileIDHelperResolutionStrategy_php_2b17733be6f97af82ed9191bff55583c
+a:3:{s:7:"classes";a:1:{s:66:"SilverStripe\Assets\FilenameParsing\FileIDHelperResolutionStrategy";a:2:{s:7:"extends";a:0:{}s:10:"interfaces";a:1:{i:0;s:58:"SilverStripe\Assets\FilenameParsing\FileResolutionStrategy";}}}s:10:"interfaces";a:0:{}s:6:"traits";a:0:{}}
