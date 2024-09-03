@@ -1,0 +1,41 @@
+---
+Name: Leadgen
+---
+SilverStripe\Core\Manifest\ModuleManifest:
+  project: app
+
+# UTF8MB4 has limited support in older MySQL versions.
+# Remove this configuration if you experience issues.
+---
+Name: myproject-database
+---
+SilverStripe\ORM\Connect\MySQLDatabase:
+  connection_charset: utf8mb4
+  connection_collation: utf8mb4_unicode_ci
+  charset: utf8mb4
+  collation: utf8mb4_unicode_ci
+
+
+Name: myroutes
+After: '#coreroutes'
+---
+SilverStripe\Control\Director:
+  rules:
+    'pindah': 'HomePageController'
+    'member': 'MemberPageController'
+    'cart/add': 'CartController'
+    'payment-status': 'PaymentPageController/getPaymentStatus'
+    
+---
+Name: shoproutes
+---
+SilverStripe\Control\Director:
+  rules:
+    'categori': 'ShopPageController'
+
+SilverStripe\Comments\Model\Comment:
+  require_login: false  # Allows non-logged-in users to comment
+  require_moderation: true  # Moderates comments before they are visible
+  comments_per_page: 10  # Paginates comments, 10 per page
+
+

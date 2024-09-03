@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script>
+    
+
+$(document).ready(function(){
+  $("button").click(function(){
+    $.ajax({url: "https://jsonplaceholder.typicode.com/photos", success: function(result){
+        console.log(result[10000])
+        // image
+        $(".kd").attr("src", result[1].url)
+
+        // ngambil data dari url 
+               $(".pdls").html (result[9].id)
+
+        // looping
+        for (let index = 0; index < 10; index++) {
+            const element = result[index];
+            console.log(element)
+            $(".lk").append(element.title + "<br>")
+        }
+    }});
+  });
+});
+</script>
+</head>
+<body>
+    <!-- img kosoong yang akan ditambah dan diberi gambar dri url -->
+    <img src="" alt="" class="kd">
+<div id="div1"><h2 class="pdls">Let jQuery AJAX Change This Text</h2></div>
+<p class="lk"></p>
+<button>Get External Content</button>
+<img src="" alt="">
+</body>
+</html>
