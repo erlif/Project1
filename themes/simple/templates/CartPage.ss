@@ -555,21 +555,21 @@ tampung += `<option value="${element.name}">${element.name}</option>`;
         $('.fsmds').empty();
 
         $('.cart-items').html(`
-  <div class="container">
-    <div class="row text-center justify-content-around justify-content-sm-center ppp">
-      <div class="col-6 col-sm-4">
-        <img src="https://assets.tokopedia.net/assets-tokopedia-lite/v2/backfunnel/kratos/4d27af6a.svg" alt="">
-      </div>
-      <div class="col-6 col-sm-4 mt-3 text-start">
-        <h5 class="card-title">Kosong Nih!!</h5>
-        <h6 class="card-subtitle mb-2 text-muted">Belanja YUK!!</h6>
-        <a href="{$BaseHref}/shop"><button class="btn btn-br">Klik Disini</button></a>
-      </div>
-    </div>
-  </div>`);
-  var button = document.getElementById('Buy');
-  button.classList.add("disabled");
-      }
+          <div class="container">
+            <div class="row text-center justify-content-around justify-content-sm-center ppp">
+              <div class="col-6 col-sm-4">
+                <img src="https://assets.tokopedia.net/assets-tokopedia-lite/v2/backfunnel/kratos/4d27af6a.svg" alt="">
+              </div>
+              <div class="col-6 col-sm-4 mt-3 text-start">
+                <h5 class="card-title">Kosong Nih!!</h5>
+                <h6 class="card-subtitle mb-2 text-muted">Belanja YUK!!</h6>
+                <a href="{$BaseHref}/shop"><button class="btn btn-br">Klik Disini</button></a>
+              </div>
+            </div>
+          </div>`);
+      var button = document.getElementById('Buy');
+      button.classList.add("disabled");
+          }
     })
 
     //item-details
