@@ -6,6 +6,9 @@ Class Order extends DataObject{
 
     private static $db = [
         'Invoice' => 'Int',
+        'Nama_Ekspedisi' => 'Varchar',
+        'Jenis_Pengantaran' => 'Varchar',
+        'Tax' => 'Varchar'
     ];
 
     private static $has_one = [

@@ -1,0 +1,3 @@
+0
+BlogController_php_112563f5ae49f794367a9051b2153088
+a:3:{s:7:"classes";a:1:{s:14:"BlogController";a:2:{s:7:"extends";a:1:{i:0;s:14:"PageController";}s:10:"interfaces";a:0:{}}}s:10:"interfaces";a:0:{}s:6:"traits";a:0:{}}

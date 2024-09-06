@@ -1,7 +1,8 @@
 <?php 
+use SilverStripe\Control\HTTPRequest;
 
 class Homesection3detail extends Page {
-    public function index() {
+    public function index(HTTPRequest $request) {
         $Homeimage = HomeObject::get();
         $Homesection2 = Homesection2::get();
         $Homesection3 = Homesection3::get();

@@ -20,7 +20,7 @@ class ShopPageController extends PageController
         "categori"
         ] ;
         
-        public function index(){
+        public function index(HTTPRequest $request){
             $member = Security::getCurrentUser();
             if (!$member) {
                 return $this->redirect(Director::absoluteBaseURL() . '/member');
@@ -36,7 +36,7 @@ class ShopPageController extends PageController
 
 
             //Lamp
-            
+            $Product = ShopObject::get()->sort('Title', 'DESC');
             $categoryTitle = 'Lamp';  
             
             
@@ -94,7 +94,9 @@ class ShopPageController extends PageController
                 'Sofa' => $categorySofa,
                 'Lamp' => $categoryLamps,
                 'Chair'=> $categoryChair,
-                'Link' => $this->Link()
+                'Link' => $this->Link(),
+                'Product' => $Product
+
             ];
         }
         
@@ -102,15 +104,25 @@ class ShopPageController extends PageController
 
         public function DetailObject(HTTPRequest $request){
             $member = Security::getCurrentUser();
+            if (!$member) {
+                return $this->redirect(Director::absoluteBaseURL() . '/member');
+
+
+            }
+            $member = Security::getCurrentUser();
             $k = $request->param('ID');
             $Lamp = ShopObject::get()->byID($k);
             $SubObject = SubObject::get()->filter(['ShopObjectID' => $Lamp->ID]);
-       
-        // Debug::show($Lamp);
+            $Product = ShopObject::get()->sort('Title', 'DESC');
+            $Berat = $Lamp->Berat;
+        // Debug::show($Berat);
+
         // Debug::show($SubObject);
         return $this->customise([
             'Coba' => $Lamp,$SubObject,
             'Member' => $member,
+            'Product' => $Product,
+            'Berat' => $Berat,
             // 'SubObject'=> $SubObject
             ])->renderWith(["Detail", "Page"]);
             

@@ -78,7 +78,7 @@ EOF
             foreach ($this->getResourcesByPath($class) as $class) {
                 $this->dumpValidatorsForClass($input, $output, $class);
             }
-        } catch (DirectoryNotFoundException) {
+        } catch (NotFoundException) {
             $io = new SymfonyStyle($input, $output);
             $io->error(sprintf('Neither class nor path were found with "%s" argument.', $input->getArgument('class')));
 

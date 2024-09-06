@@ -1,4 +1,5 @@
 <?php 
+use SilverStripe\Control\HTTPRequest;
 use SilverStripe\Security\Security;
 use SilverStripe\Dev\Debug;
 use Psr\Log\LoggerInterface;
@@ -6,7 +7,7 @@ use SilverStripe\Core\Injector\Injector;
 
 class NotaPageController extends PageController 
 {
-    public function index()
+    public function index(HTTPRequest $request)
     {
         $member = Security::getCurrentUser();
         if ($member) {
@@ -93,4 +94,7 @@ class NotaPageController extends PageController
         }
     }
 }
+
+
+
 

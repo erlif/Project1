@@ -29,6 +29,7 @@ class ShopObject extends DataObject
         'SubHarga2' => 'Varchar',
         'SubStok' => 'Text',
         'SubStok2' => 'Varchar',
+        'Berat' => 'Varchar',
 
     ];
 
@@ -72,6 +73,7 @@ class ShopObject extends DataObject
             TextField::create('Title3'),
             TextField::create('SubHarga2'),
             TextField::create('SubStok2'),
+            TextField::create('Berat', 'Berat(g)'),
             TextareaField::create('Description'),
             TextareaField::create('Spesifikasi'),
             TextareaField::create('Infopenting'),

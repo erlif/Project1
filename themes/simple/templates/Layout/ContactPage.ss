@@ -67,19 +67,17 @@ width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" re
 
     <div class="container mt-2">
         <form method="post" id="Formlogin">
-            <div class="text-center">
+            <div class="text-start">
                 <h4>GET IN TOUCH.</h4>
                 <p class="fw-bold">Explore your country and you can make all if you want send me message if you
                     interest.</p>
-                <div class="form-floating mb-3">
-                    <input type="email" class="form-control shadow-none" id="email" name="email" placeholder="name@example.com" required>
-                    <label for="email">Email address</label>
-                </div>
-                <div class="form-floating mt-2">
+                <div class="form-floating mt-2 ">
                     <textarea class="form-control shadow-none border-none" id="message" name="message" rows="3"placeholder="Message" required></textarea>
                     <label for="message">Message</label>
                 </div>
+               
             </div>
+            
             <button class="btn btn-rounded btn-outline-dark custom-bold-outline mt-4 fw-bold" type="submit">SEND</button>
         </form>
     </div>

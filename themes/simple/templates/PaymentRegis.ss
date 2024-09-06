@@ -57,7 +57,7 @@
 </style>
 
 <div class="container d-flex justify-content-center mt-1">
-  <div class="shadow-lg p-3 mb-5 bg-body rounded mt-2" style="width:500px; height:700;">
+  <div class="shadow-lg p-3 mb-5 bg-body rounded mt-2" style="width:500px; height:730;">
 
     <div class="header fw-bold">
       <h4>Pembayaran</h4>
@@ -86,7 +86,7 @@
         </div>
       </div>
       <div class="lms bot" id="lms">
-        <button type="submit" class="btn top " id="Buy" data-bs-toggle="modal" data-bs-target="#exampleModal" style="top: 20px;background-color: #b18b5e !important;
+        <button type="submit" class="btn top " id="Buy" data-bs-toggle="modal" data-bs-target="#exampleModal" style="top: 70px;background-color: #b18b5e !important;
           position: relative;">
               BAYAR<i class=" ms-3 fa-solid fa-user-shield"></i>
             </button>
@@ -119,16 +119,20 @@
                   <label for="phone">Phone Number</label>
                 </div>
                 <div class="form-floating mb-1">
-                  <input type="number" class="form-control" id="price" name="price" placeholder="price" value="$CartTotal" readonly  style="background-color:white !important;">
-                  <label for="price">Price</label>
+                  <input type="hidden" class="form-control" id="price" name="price" placeholder="price" value="$CartTotal" readonly  style="background-color:white !important;">
+                  <%-- <label for="price">Price</label> --%>
                 </div>
 
               </div>
             </div>
             <div class="modal-footer d-flex justify-content-between container">
-              <div class="d-flex">
+              <div class="">
+                <span class="">Harga Item : Rp.$ItemCost</span><br>
+                <span class="">Jasa Kirim : Rp.$OrderTax</span><br>
+                <div class="d-flex">
                 <h3 class="text-muted">Total :</h3>
-              <h5 class="mt-2 ms-2" >Rp.$CartTotal</h5>
+                <h5 class="mt-2 ms-2" >Rp.$CartTotal</h5>
+                </div>
               </div>
               <div class="d-grid">
                 <button type="submit" class="btn-primary btn-md lsd ">Payment</button>
@@ -141,8 +145,7 @@
     </div>
   </div>
 </div>
-<%-- 
-<div class="method">
+<%-- <div class="method">
   <div>
     <button>
       <img class="img-1" id="Image" src="" width="100" height="40">
@@ -307,7 +310,7 @@
   document.addEventListener('DOMContentLoaded', function () {
     document.getElementById('flexRadioDefault2').addEventListener('click', function () {
       var ss = `
-         <button type="submit" class="btn top " id="Buy" data-bs-toggle="modal" data-bs-target="#exampleModal" style="top: 20px;background-color: #b18b5e !important;
+         <button type="submit" class="btn top " id="Buy" data-bs-toggle="modal" data-bs-target="#exampleModal" style="top: 70px;background-color: #b18b5e !important;
     position: relative;">
         BAYAR<i class=" ms-3 fa-solid fa-user-shield"></i>
       </button>
@@ -325,6 +328,7 @@
         <input type="number" class="form-control" value="$Addres.PhoneNumber"  id="Number" name="Number">
       <label for="Alamat">Alamat</label>
         <input type="text" class="form-control" value="$Addres.Provinsi, $Addres.Kota, $Addres.Kecamatan,$Addres.Kelurahan, $Addres.AddressDetail" id="Alamat" Name="Alamat">
+          <input type="hidden" id="Total" Name="Total" value="$CartTotal">
         <%-- <span id="Nama" name="Nama">Nama: $Addres.FullName</Span><br>
         <span id="Number" name="Number">Nomer Telepon: $Addres.PhoneNumber</span><br>
         <span id="Alamat" Name="Alamat">Alamat: $Addres.Provinsi, $Addres.Kota, $Addres.Kecamatan,$Addres.Kelurahan, $Addres.AddressDetail</span> --%>
@@ -332,11 +336,13 @@
       <div class="footer" id="chng">
             <div class="d-flex bd-highlight mb-3">
               <div class="me-auto p-2 bd-highlight">
-                <h5>Total : $$CartTotal</h5>
-                <h6>OrderID: $OrderID.OrderID</h6>
+                <span class="">OrderID: $OrderID.OrderID</span><br>
+                <span class="">Item Total : Rp.$ItemCost</span><br>
+                <span class="">Jasa Kirim : Rp.$OrderTax</span><br>
+                <span class="fw-bold">Total Harga : Rp.$CartTotal</span>
               </div>
               <div class="p-2 bd-highlight">
-                <button type="submit" class="btn" style=" background-color: #b18b5e !important;">BAYAR<i
+                <button type="submit" class="btn mt-5" style=" background-color: #b18b5e !important;">BAYAR<i
                     class=" ms-3 fa-solid fa-user-shield"></i></button>
               </div>
             </div>

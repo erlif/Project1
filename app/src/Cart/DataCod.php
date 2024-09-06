@@ -11,6 +11,7 @@ class DataCod extends DataObject{
         "Number" => "Int",
         "Alamat" => "Varchar",
         "Status" => "Enum('Pending, Approved, Rejected', 'Pending')",
+        "Total" => 'Varchar'
     ];
 
     private static $has_one = [
@@ -29,6 +30,7 @@ class DataCod extends DataObject{
             'Number' => 'Number',
             'Alamat' => 'Alamat',
             'Status' => 'Status',
+            'Total' => 'Total',
             'CartItemSummary' => 'Cart Item'
         ];
     }
@@ -70,6 +72,20 @@ class DataCod extends DataObject{
         return DBHTMLText::create()->setValue($summary);
 
     }
+    public function getTaxSummary(){
+        $orders = $this->Order()->last();
+        // Debug::show($order);
+        $summary = '';
+        foreach($orders as $order) {
+            $summary = sprintf(
+                '%d',
+                $order->Tax
+            );
+        }
+
+        return DBHTMLText::create()->setValue($summary);
+
+    }
 
     public function getCMSFields()
 { 
@@ -81,6 +97,9 @@ class DataCod extends DataObject{
     $fields->addFieldToTab('Root.Main', ReadonlyField::create('Number', 'Number'));
     $fields->addFieldToTab('Root.Main', ReadonlyField::create('Alamat', 'Alamat'));
     $fields->addFieldToTab('Root.Main', ReadonlyField::create('OrderID', 'Order', $this->getorderSummary()));
+    $fields->addFieldToTab('Root.Main', ReadonlyField::create('Tax', 'Tax', $this->getTaxSummary()));
+    $fields->addFieldToTab('Root.Main', ReadonlyField::create('Total', 'Total'));
+
     // Add the Status dropdown field
     $fields->addFieldToTab('Root.Main', DropdownField::create(
         'Status',

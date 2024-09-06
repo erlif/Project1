@@ -375,7 +375,6 @@ $val .= '</h5>
             </div>
 
 
-
             <button type="button" class="btn btn-outline-dark me-3 fw-bold shadow-none " id="keranjang">Masukan
               Keranjang</button>
             ';
@@ -723,11 +722,7 @@ $val .= ';
             //    priceTotal()
           })
         </script>
-        ';
-
-
-; $scope->popScope(); 
-$val .= '
+        
 
           <script>
             $(\'#keranjang\').click(function () {
@@ -740,6 +735,10 @@ $val .= '
               });
               }else{
               var title = $(\'h2.fw-bold\').text().trim();
+              var berat = ';
+
+$val .= $scope->locally()->XML_val('Berat', null, true);
+$val .= ';
               var stok = $(\'#stok\').text().trim();
               var price = $(\'#price\').text().trim();
               var quantity = $(\'#quantity\').val();
@@ -748,6 +747,7 @@ $val .= '
               // Create a data object to store
               var item = {
                 title: title,
+                berat: berat,
                 stok: stok,
                 price: price,
                 quantity: quantity,
@@ -773,5 +773,8 @@ $val .= '
             function reload() {
               location.reload()
             }
-          </script>';
+          </script>
+        ';
 
+
+; $scope->popScope(); 

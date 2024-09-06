@@ -1,7 +1,8 @@
 <?
+use SilverStripe\Control\HTTPRequest;
 
 class Homesection2detailController extends PageController {
-    public function index() {
+    public function index(HTTPRequest $request) {
         
         $Homeimage = HomeObject::get();
         $Homesection2 = Homesection2::get();

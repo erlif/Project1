@@ -10,6 +10,8 @@ class CartItem extends DataObject {
         'Quantity' => 'Int',  
         'Harga' => 'Varchar',
         'Total'=> 'Int',
+        'Berat' => 'Varchar',
+        'BeratTotal'=> 'Int',
         
     ];
 
@@ -29,6 +31,8 @@ class CartItem extends DataObject {
         'Quantity' => 'Quantity',
         'Harga' => 'Harga',
         'Total' => 'Total',
+        'Berat' => 'Berat',
+        'BeratTotal' => 'BeratTotal',
 
     ];
 
@@ -40,6 +44,9 @@ class CartItem extends DataObject {
 
         $this ->Total = $this->Harga * $this->Quantity;
     }
+
+    
+
 
     protected function onBeforeWrite() {
             parent::onBeforeWrite();

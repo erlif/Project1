@@ -561,8 +561,8 @@
         <div class="container container-fluid d-flex justify-content-between p-2">
 
             <div class=" text-start mt-1 scale d-flex">
-            <i class="fa-solid fa-kiwi-bird ontop" style="margin-top: 8px;scale:2;"></i>
-                <a class="navbar-brand fw-bold text-start  ms-2" href="/pindah"><p class="h3" style="margin-bottom:0;">LeadGen</p></a>
+                <i class="fa-solid fa-kiwi-bird ontop" style="margin-top: 8px;scale:2;"></i>
+                <a class="navbar-brand fw-bold text-start  ms-2" href="/pindah"><p class="h3 fw-bold" style="margin-bottom:0;">$SiteConfig.Title</p></a>
             </div>
             <div class=" d-flex justify-content-center cdsc">
                 <div class="collapse navbar-collapse fw-bold">
@@ -613,7 +613,7 @@
     <div class="offcanvas offcanvas-end" tabindex="5" id="offcanvasWithBackdrop"
         aria-labelledby="offcanvasWithBackdropLabel">
         <div class="offcanvas-header" style="background-color: #b18b5e;">
-            <h3 class="offcanvas-title fw-bold " id="offcanvasWithBackdropLabel">LeadGen</h3>
+            <h3 class="offcanvas-title fw-bold " id="offcanvasWithBackdropLabel">$SiteConfig.Title</h3>
             <button type="button" class="btn-close text-reset shadow-none" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
         <div class="user">

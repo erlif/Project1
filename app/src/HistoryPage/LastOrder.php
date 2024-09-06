@@ -14,6 +14,7 @@ class LastOrder extends DataObject
         'Email' => 'Text',
         'Phone' => 'Varchar',
         'Signature' => 'Varchar',
+        'Total' => 'Varchar',
     ];
 
     private static $has_one = [
@@ -31,7 +32,8 @@ class LastOrder extends DataObject
             'CostumerName' => 'Costumer Name',
             'Email' => 'Email',
             'Phone' => 'Phone',
-            'StatusMessage' => 'Status Message'
+            'StatusMessage' => 'Status Message',
+            'Total' => 'Total'
         ];
     }
 
@@ -60,6 +62,7 @@ class LastOrder extends DataObject
         $fields->addFieldToTab('Root.Main', ReadonlyField::create('Email', 'Email'));
         $fields->addFieldToTab('Root.Main', ReadonlyField::create('Phone', 'Phone'));
         $fields->addFieldToTab('Root.Main', ReadonlyField::create('Signature', 'Signature'));
+        $fields->addFieldToTab('Root.Main', ReadonlyField::create('Total', 'Total'));
         $fields->addFieldToTab('Root.Main', ReadonlyField::create('StatusMessage', 'StatusMessage', $this->getstatusmessage()));
         // $fields->addFieldToTab('Root.Main', ReadonlyField::create('OrderID', 'Order', $this->getorderSummary()));
 

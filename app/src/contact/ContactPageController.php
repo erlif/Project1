@@ -2,6 +2,7 @@
 
 namespace {
 
+use SilverStripe\SiteConfig\SiteConfig;
 use SilverStripe\Control\Director;
 use SilverStripe\Dev\Debug;
 use SilverStripe\Control\Email\Email;
@@ -15,12 +16,14 @@ class ContactPageController extends PageController
         'mail'
     ];
 
-    public function index (){
+    public function index (HTTPRequest $request){
         $member = Security::getCurrentUser();
         if($member){
+            $Product = ShopObject::get()->sort('Title', 'DESC');
             return [
                 'Member' => $member,
-                'Email' => $member->Email
+                'Email' => $member->Email,
+                'Product' => $Product
             ];
         } else{
             return $this->redirect(Director::absoluteBaseURL() . '/member');
@@ -32,17 +35,19 @@ class ContactPageController extends PageController
         // Get POST data
         $data = $request->postVars();
         Debug::show($data); // Display the POST data for debugging
-
-        $email = $data['email'] ?? null;
+        $siteconfig = SiteConfig::current_site_config();
+        // Debug::show($siteconfig);
+        $send = $siteconfig->Email;
+       
+        
         $message = $data['message'] ?? null;
-
-        if ($email && $message) {
+        if ($message && $send) {
             // Process the email
             $emailObj = Email::create()
-                ->setFrom($email)
-                ->setTo('lekimamleki@gmail.com')
+                ->setFrom('lekimamleki@gmail.com')
+                ->setTo($send)
                 ->setSubject('Message Contact-Us')
-                ->setBody("From :$email\nMessage:$message");
+                ->setBody("$message");
 
             try {
                 $emailObj->send();

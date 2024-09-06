@@ -1,3 +1,36 @@
+<style>
+  @media (max-width: 410px){
+    .table{
+      scale: 0.8;
+      transform-origin:left;
+    }
+  } 
+  @media (max-width: 400px){
+    .table{
+      scale: 0.95;
+      transform-origin:left;
+    }
+  } 
+  @media (max-width: 385px){
+    .table{
+      scale: 0.85;
+      transform-origin:left;
+    }
+  }
+  @media (max-width: 350px){
+    .table{
+      scale: 0.8;
+      transform-origin:left;
+    }
+  }
+  @media (max-width: 330px){
+    .table{
+      scale: 0.752;
+      transform-origin:left;
+    }
+  }
+</style>
+
 <% if $CurrentMember %>
 
     <%-- <div class="container  scl mt-5 p-3" style="background-color: #727272; border-radius: 20px;">
@@ -104,9 +137,13 @@
     </tbody>
   </table>
 
-
-
-
+<div class="container me-lg-2  ">
+  <div>
+    <span class="">Item Total : Rp.$CartTotal</span><br>
+    <span class="">Jasa Kirim : Rp.$Tax</span><br>
+    <span class="fw-bold">Total Akhir : Rp.$Order.Total</span><br>
+  </div>
+</div>
 
 
 

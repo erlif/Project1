@@ -1,40 +1,43 @@
+  
+<% include Header %>
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+  integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/js/all.min.js"
+  integrity="sha512-u3fPA7V8qQmhBPNT5quvaXVa1mnnLSXUep5PS1qo5NRzHwG19aHmNJnj1Q8hpA/nBWZtZD4r4AX6YOt5ynLN2g=="
+  crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+  integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/js/all.min.js"
+  integrity="sha512-u3fPA7V8qQmhBPNT5quvaXVa1mnnLSXUep5PS1qo5NRzHwG19aHmNJnj1Q8hpA/nBWZtZD4r4AX6YOt5ynLN2g=="
+  crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+  <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+  integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+  integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+  rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.12.4/dist/sweetalert2.all.min.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/sweetalert2@11.12.4/dist/sweetalert2.min.css" rel="stylesheet">
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
-integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
-crossorigin="anonymous" referrerpolicy="no-referrer" />
-<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/js/all.min.js"
-integrity="sha512-u3fPA7V8qQmhBPNT5quvaXVa1mnnLSXUep5PS1qo5NRzHwG19aHmNJnj1Q8hpA/nBWZtZD4r4AX6YOt5ynLN2g=="
-crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
-integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
-crossorigin="anonymous" referrerpolicy="no-referrer" />
-<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/js/all.min.js"
-integrity="sha512-u3fPA7V8qQmhBPNT5quvaXVa1mnnLSXUep5PS1qo5NRzHwG19aHmNJnj1Q8hpA/nBWZtZD4r4AX6YOt5ynLN2g=="
-crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
-<link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.12.4/dist/sweetalert2.all.min.js"></script>
-<link href="https://cdn.jsdelivr.net/npm/sweetalert2@11.12.4/dist/sweetalert2.min.css" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
-integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
-crossorigin="anonymous" referrerpolicy="no-referrer" />
-<link rel="stylesheet"
-href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
-integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
-crossorigin="anonymous" referrerpolicy="no-referrer" />
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-rel="stylesheet">
     <%-- <% require themedCSS('cart') %>
     <% require themedCSS('reset') %>
     <% require themedCSS('typography') %>
@@ -147,9 +150,9 @@ input[type=number]::-webkit-outer-spin-button,
     border-radius: 20px;
 }
 .btn-brown , .btn-br{
-  background-color: #b18b5e;
-  border-radius: 5px;
-  color:white;
+  background-color: #b18b5e !important;
+  border-radius: 5px !important;
+  color:white !important;
 }
 @media (max-width: 768px){
   .top{
@@ -166,14 +169,13 @@ input[type=number]::-webkit-outer-spin-button,
 </style>
 </head>
 <body style="height:650px;">
+
   
-<% include HeaderCart %>
-  
 
 
 
 
-<div class="container mt-5 mb-5">
+<div class="container " style="margin-bottom:200px; margin-top: 100px;">
   <h4 class="fw-bold">Keranjang</h4>
   <div class="row">
     <div class="col-md-8 col-sm-12">
@@ -235,18 +237,18 @@ input[type=number]::-webkit-outer-spin-button,
                         </div>
                         <div class="d-flex mb-3 gap-1">
                           <div class="col-6">
-                            <select id="Provinsi" name="Provinsi" class="provinsi form-control" 
+                            <select id="nama_provinsi" name="nama_provinsi" class="provinsi form-control" 
                               required>
                               <option value="">Pilih Provinsi</option>
                             </select>
                           </div>
                           <div class="col-6">
-                            <select id="Kota" name="Kota" class="kota form-control"  required>
+                            <select id="nama_city" name="nama_city" class="kota form-control"  required>
                               <option value="">Pilih Kota</option>
                             </select>
                           </div>
                         </div>
-                        <div class="d-flex mb-3 gap-1">
+                        <%-- <div class="d-flex mb-3 gap-1">
                           <div class="col-6">
                             <select id="Kecamatan" name="Kecamatan" class="kecamatan form-control" required>
                             <option value="">Pilih Kecamatan</option>
@@ -257,8 +259,23 @@ input[type=number]::-webkit-outer-spin-button,
                             <option value="">Pilih Kelurahan</option>
                             </select>
                           </div>
-                        </div>
+                        </div> --%>
                         <div class="col-12">
+                            <select id="Ekspedisi" name="nama_ekspedisi" class="kota form-control" required >
+                            <option value="">Pilih Ekspedisi</option>
+                            <option value="pos">Pos Indonesia</option>
+                            <option value="tiki">Tiki</option>
+                            <option value="jne">JNE</option>
+                            </select>
+                        </div>
+
+                        <div class="col-12 mt-3">
+                            <select id="paket" name="nama_paket" class="kota form-control" required >
+                            <option value="">Pilih Jenis Pengantaran</option>
+                            </select>
+                        </div>
+
+                        <div class="col-12 mt-3">
                           <div class="form-floating mb-3">
                             <input type="text" id="AddressDetail" class="form-control" placeholder="Alamat Lengkap"
                               name="AddressDetail" required>
@@ -308,7 +325,7 @@ crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <!-- Swiper JS -->
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
-<script>
+<%-- <script>
   fetch(`https://kanglerian.github.io/api-wilayah-indonesia/api/provinces.json`)
   .then(response => response.json())
   .then(provinces => {
@@ -373,7 +390,7 @@ tampung += `<option value="${element.name}">${element.name}</option>`;
 });
 
 
-</script>
+</script> --%>
 
 
 
@@ -385,7 +402,17 @@ tampung += `<option value="${element.name}">${element.name}</option>`;
         var cartItems = JSON.parse(localStorage.getItem('cartItems')) || [];
         var cartRow = '';
       
-      
+        cartItems.forEach(function(item) {
+          var berat = parseFloat(item.berat);
+          var quantity = parseInt(item.quantity);
+          var total = berat * quantity;
+
+          // Add to total_berat
+          total_berat = total;
+          });
+
+          // Log the total_berat to console
+
       
       
       
@@ -419,16 +446,7 @@ tampung += `<option value="${element.name}">${element.name}</option>`;
         }
       
       
-        function updateTotalPrice() {
-          var total = 0;
-          cartItems.forEach(function (item) {
-            var price = parseFloat(item.price.replace('$', ''));
-            var quantity = parseInt(item.quantity);
-            total += price * quantity;
-          });
-          total = total.toFixed(2);
-          $('.cart-total-price').text('Rp.' + total);
-        }
+        
       
         // Render cart items on page load
         renderCartItems();
@@ -444,7 +462,7 @@ tampung += `<option value="${element.name}">${element.name}</option>`;
                         <span class="cart-item-title " id="Title" name="Title">${item.title}</span>
                     </div>
                     <%-- <div class=" d-flex justify-content-center"> --%>
-                    <span class="cart-price cart-column text-center" id="Harga" name="Harga">$ ${item.price}</span>
+                    <span class="cart-price cart-column text-center" id="Harga" name="Harga">Rp. ${item.price}</span>
                     <div class="cart-quantity cart-column  gap-3">
                         <div class="input-group">
                         <span class="cart-quantity-input" id ="Quantity" name="Quantity">${item.quantity}</span>
@@ -455,26 +473,49 @@ tampung += `<option value="${element.name}">${element.name}</option>`;
                 </div>
             `;
             $("#item-detail").append(cartmodal);
+            var berat = parseFloat(item.berat);
+            var quantity = parseInt(item.quantity);
+            var total = berat * quantity;
+  
+            // Add to total_berat
+            total_berat = total;
+
+            console.log(total_berat);
                 });
       
       
           var cartdetail = '';
       
           cartItems.forEach(function (item, index) {
+            
+
+            console.log(total_berat);
             cartdetail = `
             <input type="hidden" name="item[image][]" id="image" value="${item.imageSrc}">
             <input type="hidden" name="item[title][]" id="title" value="${item.title}">
             <input type="hidden" name="item[price][]" id="price" value="${item.price}">
             <input type="hidden" name="item[quantity][]"  id="quantity" value="${item.quantity}">
+            <input type="hidden" name="item[berat][]"  id="berat" value="${item.berat}">
+            <input type="hidden" name="item[berat_total][]" id="berat_total" value="">
+            <input type="hidden" name="item[tax][]" id="tax" value="">
+
         `;
             $("#item-detail").append(cartdetail);
+            var berat = parseFloat(item.berat);
+            var quantity = parseInt(item.quantity);
+            var total = berat * quantity;
+  
+            // Add to total_berat
+            total_berat = total;
+            $("#berat_total").val(total_berat);
+           
           })
         });
       
       
       
       
-      //cart-items
+        //cart-items
         // Event delegation for removing items
         $('.cart-items').on('click', '.btn-brown', function () {
           var index = $(this).closest('.cart-row').data('index');
@@ -506,9 +547,29 @@ tampung += `<option value="${element.name}">${element.name}</option>`;
 
           function reload(){
                 location.reload()
-              }
+          }
 
-        
+          function updateTotalPrice() {
+          var total = 0;
+          cartItems.forEach(function (item) {
+            var price = parseFloat(item.price.replace('$', ''));
+            var quantity = parseInt(item.quantity);
+            total += price * quantity;
+          });
+          total = total.toFixed(2);
+          $('.cart-total-price').text('Rp.' + total);     
+          }
+
+          function updateTotalBerat() {
+          var total = 0;
+          cartItems.forEach(function (item) {
+            var berat = parseFloat(item.berat);
+            var quantity = parseInt(item.quantity);
+            total += berat * quantity;
+          });
+          total = total.toFixed(2);
+          $('.cart-total-berat').text(total);     
+          }
           
           // Event delegation for changing quantity
           $('.cart-items').on('click', '.qty-increase', function () {
@@ -541,14 +602,86 @@ tampung += `<option value="${element.name}">${element.name}</option>`;
           cartItems[index].quantity = newQuantity;
           localStorage.setItem('cartItems', JSON.stringify(cartItems));
           updateTotalPrice();
+
         });
       });  
 
 
+
+
+    
+    
     
       
 </script>
+<script>
+    //lokasi
+    $(document).ready(function (){
+      $.ajax ({
+        type: 'post',
+        url: "{$BaseHref}/cart/province",
+        success:function(hasil_provinsi)
+        {
+          $("select[name=nama_provinsi]").html(hasil_provinsi);
+        }
+      });
+      $("select[name=nama_provinsi]").on("change", function(){
+        var id_provinsi = $("option:selected", this).attr("province_id");
+        $.ajax({
+          type:'post',
+          url: "{$BaseHref}/cart/city",
+          data:'province_id='+ id_provinsi,
+          success:function(hasil_city)
+          {
+            $("select[name=nama_city]").html(hasil_city);
+          }
+        })
+      });
+      $("select[name=nama_ekspedisi]").on("change", function(){
+  
+        //get ekspedisi
+        var ekspedisi = $("select[name=nama_ekspedisi]").val();
+        //alert(ekspedisi);
+        //id distrik
+        var city = $("option:selected", "select[name=nama_city]").attr("city_id");
+        //alert(city);
+        var total_berat = 0;
+        var cartItems = JSON.parse(localStorage.getItem('cartItems')) || [];
+        // Calculate total weight by multiplying item weight with quantity
+        cartItems.forEach(function(item) {
+            var berat = parseFloat(item.berat);
+            var quantity = parseInt(item.quantity);
+            var total = berat * quantity;
 
+            // Add to total_berat
+            total_berat += total;
+            console.log(total_berat);
+        });
+
+
+        // Log the total_berat to console
+        //console.log(total_berat)
+        $.ajax({
+          type: 'post',
+          url:  "{$BaseHref}/cart/cost",
+          data: 'ekspedisi='+ekspedisi+'&city='+city+'&berat='+total_berat,
+          success:function(hasil_paket)
+          {
+            console.log(hasil_paket);
+            $("select[name=nama_paket]").html(hasil_paket);
+            
+            
+          }
+        })
+      })
+      $("select[name=nama_paket]").on("change", function(){
+
+        var data = $('option:selected', this).attr('ongkir');
+        $("#tax").val(data);
+
+      })
+    })
+</script>
 <script>
     $(document).ready(function (){
       if($('.cart-items').is(':empty')){
@@ -601,3 +734,4 @@ tampung += `<option value="${element.name}">${element.name}</option>`;
 
 </body>
 </html>
+<% include Footer %>

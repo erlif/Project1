@@ -3,89 +3,129 @@ $val .= '<footer class="p-4 mt-5" style="background-color: #000;">
 	<div class="container-fluid text-light  text-center">
 		<div class="row  mt-3">
 			<div class="col mt-5 text-start">
-				<img src="" alt="" class="kd-6">
-				<p class="text-muted mt-4 mb-3 ">It helps designers plan out where the content will sit, the content
-					to be written and approved</p>
+				';
+
+$scope->locally()->obj('SiteConfig', null, true); $scope->pushScope();
+$val .= '
+					<img class=" ms-lg-5 img-fluid" id="Image" src="';
+
+$val .= $scope->locally()->obj('Image', null, true)->XML_val('getURL', null, true);
+$val .= '" alt="Site Image">
+				';
+
+
+; $scope->popScope(); 
+$val .= '
+				
+				
+				
+				<p class=" mt-1 mb-3 " style="scale:0.8; transform-origin:top;">';
+
+$val .= $scope->locally()->obj('SiteConfig', null, true)->XML_val('Tagline', null, true);
+$val .= '</p>
+				
 			</div>
 			<div class="col mt-5 text-start link-underline-dark">
-				<h6 class="mb-4">Services</h6>
-				<a href="' . (\SilverStripe\View\SSViewer::getRewriteHashLinksDefault()
-    ? \SilverStripe\Core\Convert::raw2att( preg_replace("/^(\\/)+/", "/", $_SERVER['REQUEST_URI'] ) )
-    : "") . '#"  style="text-decoration: none;" >
-					<p class="text-muted">Log In</p>
-				</a>
-				<a href="' . (\SilverStripe\View\SSViewer::getRewriteHashLinksDefault()
-    ? \SilverStripe\Core\Convert::raw2att( preg_replace("/^(\\/)+/", "/", $_SERVER['REQUEST_URI'] ) )
-    : "") . '#"  style="text-decoration: none;" >
-					<p class="text-muted">Wishlist</p>
-				</a>
-				<a href="' . (\SilverStripe\View\SSViewer::getRewriteHashLinksDefault()
-    ? \SilverStripe\Core\Convert::raw2att( preg_replace("/^(\\/)+/", "/", $_SERVER['REQUEST_URI'] ) )
-    : "") . '#"  style="text-decoration: none;" >
-					<p class="text-muted">Return Policy</p>
-				</a>
-				<a href="' . (\SilverStripe\View\SSViewer::getRewriteHashLinksDefault()
-    ? \SilverStripe\Core\Convert::raw2att( preg_replace("/^(\\/)+/", "/", $_SERVER['REQUEST_URI'] ) )
-    : "") . '#"  style="text-decoration: none;" >
-					<p class="text-muted">Privacy Policy</p>
-				</a>
-				<a href="' . (\SilverStripe\View\SSViewer::getRewriteHashLinksDefault()
-    ? \SilverStripe\Core\Convert::raw2att( preg_replace("/^(\\/)+/", "/", $_SERVER['REQUEST_URI'] ) )
-    : "") . '#"  style="text-decoration: none;" >
-					<p class="text-muted">Shopping FAQS</p>
-				</a>
+				<h6 class="mb-4">Products</h6>
+				';
+
+$scope->locally()->obj('Product', null, true)->obj('Limit', [6], true); $scope->pushScope(); while (($key = $scope->next()) !== false) {
+$val .= '
+					<a href="/pindah/shop-page/detailobject/';
+
+$val .= $scope->locally()->XML_val('ID', null, true);
+$val .= '"  style="text-decoration: none;" >
+						<p class="text-light">';
+
+$val .= $scope->locally()->XML_val('Title', null, true);
+$val .= '</p>
+					</a>	
+				';
+
+
+}; $scope->popScope(); 
+$val .= '
 
 			</div>
 			<div class="col mt-5 text-start">
-				<h6 class="mb-4">Company</h6>
-				<a href="' . (\SilverStripe\View\SSViewer::getRewriteHashLinksDefault()
-    ? \SilverStripe\Core\Convert::raw2att( preg_replace("/^(\\/)+/", "/", $_SERVER['REQUEST_URI'] ) )
-    : "") . '#"  style="text-decoration: none;" >
-					<p class="text-muted">Home</p>
+				<h6 class="mb-4">Page</h6>
+				<a href="';
+
+$val .= $scope->locally()->XML_val('BaseHref', null, true);
+$val .= '"  style="text-decoration: none;" >
+					<p class="text-light">Home</p>
 				</a>
-				<a href="' . (\SilverStripe\View\SSViewer::getRewriteHashLinksDefault()
-    ? \SilverStripe\Core\Convert::raw2att( preg_replace("/^(\\/)+/", "/", $_SERVER['REQUEST_URI'] ) )
-    : "") . '#"  style="text-decoration: none;" >
-					<p class="text-muted">About Us</p>
+				<a href="';
+
+$val .= $scope->locally()->XML_val('BaseHref', null, true);
+$val .= '/about"  style="text-decoration: none;" >
+					<p class="text-light">About Us</p>
 				</a>
-				<a href="' . (\SilverStripe\View\SSViewer::getRewriteHashLinksDefault()
-    ? \SilverStripe\Core\Convert::raw2att( preg_replace("/^(\\/)+/", "/", $_SERVER['REQUEST_URI'] ) )
-    : "") . '#"  style="text-decoration: none;" >
-					<p class="text-muted">Pages</p>
+				<a href="';
+
+$val .= $scope->locally()->XML_val('BaseHref', null, true);
+$val .= '/shop"  style="text-decoration: none;" >
+					<p class="text-light">Shop</p>
 				</a>
-				<a href="' . (\SilverStripe\View\SSViewer::getRewriteHashLinksDefault()
-    ? \SilverStripe\Core\Convert::raw2att( preg_replace("/^(\\/)+/", "/", $_SERVER['REQUEST_URI'] ) )
-    : "") . '#"  style="text-decoration: none;" >
-					<p class="text-muted">Blog</p>
+				<a href="';
+
+$val .= $scope->locally()->XML_val('BaseHref', null, true);
+$val .= '/pages"  style="text-decoration: none;" >
+					<p class="text-light">Pages</p>
 				</a>
-				<a href="' . (\SilverStripe\View\SSViewer::getRewriteHashLinksDefault()
-    ? \SilverStripe\Core\Convert::raw2att( preg_replace("/^(\\/)+/", "/", $_SERVER['REQUEST_URI'] ) )
-    : "") . '#"  style="text-decoration: none;" >
-					<p class="text-muted">Contact Us</p>
+				<a href="';
+
+$val .= $scope->locally()->XML_val('BaseHref', null, true);
+$val .= '/blog"  style="text-decoration: none;" >
+					<p class="text-light">Blog</p>
+				</a>
+				<a href="';
+
+$val .= $scope->locally()->XML_val('BaseHref', null, true);
+$val .= '/contact"  style="text-decoration: none;" >
+					<p class="text-light">Contact Us</p>
 				</a>
 			</div>
 			<div class="col mt-5 text-start">
 				<h6 class="mb-4">Contact</h6>
-				<p class="text-muted">4517 Washington Ave. <br> Manchester,Kentucky 39495</p>
+				<p class="">';
+
+$val .= $scope->locally()->obj('SiteConfig', null, true)->XML_val('Address', null, true);
+$val .= '</p>
 				<button type="button" class="btn  btn-circle me-4  "  style="background-color: #b18b5e; color: white;"><i class="fa-solid fa-location-dot"></i></button>
 				711-2880 Nuila St.
 				<br>
 				<br>
 				<button type="button" class="btn btn-circle me-4 "style="background-color: #b18b5e; color: white;"><i class="fa-solid fa-phone"></i></button>
-				+964 742 44 763
+				';
+
+$val .= $scope->locally()->obj('SiteConfig', null, true)->XML_val('Nomer', null, true);
+$val .= '
 				
 				
-				<p class="text-muted mt-3">Mon-Sat: 9 AM - 5 PM</p>
+				<p class=" mt-3">Mon-Sat: 9 AM - 5 PM</p>
 			</div>
-			<div class="text-start">
-				<button type="button" class="btn btn-circle custom-gap" style="background-color: white; color: black;" > <i
-				class="fa-brands fa-facebook"></i></button>
-		<button type="button" class="btn btn-circle custom-gap" style="background-color: white; color: black;"><i
-				class="fa-brands fa-twitter"></i></i></button>
-		<button type="button" class="btn btn-circle custom-gap" style="background-color: white; color: black;"> <i
-				class="fa-brands fa-linkedin"></i></i></button>
-		<button type="button" class="btn btn-circle custom-gap" style="background-color: white; color: black;" ><i
-				class="fa-brands fa-instagram"></i></i></button>
+			<div class="col-12 ms-lg-4 ms-md-3 text-start container">
+				<a href="';
+
+$val .= $scope->locally()->obj('SiteConfig', null, true)->XML_val('Facebook', null, true);
+$val .= '"><button type="button" class="btn btn-circle custom-gap" style="background-color: white; color: black;" > <i
+				class="fa-brands fa-facebook"></i></button></a>
+				<a href="';
+
+$val .= $scope->locally()->obj('SiteConfig', null, true)->XML_val('Twitter', null, true);
+$val .= '"><button type="button" class="btn btn-circle custom-gap" style="background-color: white; color: black;"><i
+							class="fa-brands fa-twitter"></i></i></button></a>
+				<a href="';
+
+$val .= $scope->locally()->obj('SiteConfig', null, true)->XML_val('LinkedIn', null, true);
+$val .= '"><button type="button" class="btn btn-circle custom-gap" style="background-color: white; color: black;"> <i
+							class="fa-brands fa-linkedin"></i></i></button></a>
+				<a href="';
+
+$val .= $scope->locally()->obj('SiteConfig', null, true)->XML_val('Instagram', null, true);
+$val .= '"><button type="button" class="btn btn-circle custom-gap" style="background-color: white; color: black;" ><i
+							class="fa-brands fa-instagram"></i></i></button></a>
 			</div>
 		</div>
 		<hr class="footer-separator mt-5">
@@ -95,21 +135,7 @@ $val .= '<footer class="p-4 mt-5" style="background-color: #000;">
 					<h6>All Copyright 2024 by Online</h6>
 				</div>
 				<div class="col text-center">
-					<img src="';
 
-$val .= $scope->locally()->XML_val('resourceURL', ['themes/simple/images/59img_6919-removebg-preview.png'], true);
-$val .= '" alt="" class="img-fluid bg-light" width="100"
-						height="100">
-					<img src="';
-
-$val .= $scope->locally()->XML_val('resourceURL', ['themes/simple/images/Logo_Mastercard_HiRes-removebg-preview.png'], true);
-$val .= '" alt="" class="img-fluid bg-light"
-						width="75" height="20">
-					<img src="';
-
-$val .= $scope->locally()->XML_val('resourceURL', ['themes/simple/images/images-removebg-preview.png'], true);
-$val .= '" alt="" class="img-fluid bg-light" width="150"
-						height="100">
 				</div>
 				<div class="col text-end">
 					<h6>Terms & Condition | Privacy Policy</h6>
@@ -123,39 +149,9 @@ $val .= '" alt="" class="img-fluid bg-light" width="150"
 \SilverStripe\View\Requirements::themedCSS('home');
 $val .= '
 </footer>
-<script>
-	$(document).ready(function () {
-		$.ajax({
-			url: "https://jsonplaceholder.typicode.com/photos", success: function (result) {
-				';
-
-
-$val .= '
-				';
-
-
-$val .= '
-				// $(".dks").attr("src", result[9].thumbnailUrl)
-				for (let index = 0; index < 10; index++) {
-					const element = result[index];
-					var kj = index + 1;
-					// $(".kd").append("src",element.thumbnailUrl)
-					$(".kd-" + kj).attr("src", element.thumbnailUrl);
 
 
 
+';
 
-				}
-
-
-				for (let index = 0; index < 5; index++) {
-					const element = result[index];
-					var kg = index + 1;
-					$(".utb" + kg).append(element.title);
-
-				}
-			}
-		});
-	});
-</script>';
 

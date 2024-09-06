@@ -1,5 +1,0 @@
-<?php
-$val .= $scope->locally()->XML_val('CurrentReadingMode', null, true);
-$val .= ', ';
-
-$val .= $scope->locally()->obj('CurrentUser', null, true)->XML_val('ID', null, true);

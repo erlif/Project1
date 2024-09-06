@@ -10,7 +10,7 @@ class HistoryBankPageController extends PageController
     private static $allowed_actions = [
         'Nota'
     ];
-    public function index()
+    public function index(HTTPRequest $request)
     {
         $member = Security::getCurrentUser();
         if ($member) {
@@ -36,17 +36,17 @@ class HistoryBankPageController extends PageController
         $lastorder = LastOrder::get()->byID($k);
 
 
-
+        
 
         $shippingAddress = MemberIdentity::get()
         ->filter(['MemberID' => $member->ID])
         ->sort('Created', 'DESC')
         ->first();
-        
-        
+        $ordertax = Order::get()->filter('MemberIdentityID', $shippingAddress->ID)->column('Tax');
+        $tax = isset($ordertax[0]) ? $ordertax[0] : 0;
         $order = Order::get()->filter('LastOrderID', $lastorder->ID)->last();
         $cartitem = CartItem::get()->filter('OrderID',$order->ID);
-        // Debug::show($cartitem);
+        
                 $cartTotal = $cartitem->sum('Total');
         }else {
             return $this->redirect(Director::absoluteBaseURL() . '/member');
@@ -55,6 +55,7 @@ class HistoryBankPageController extends PageController
         return $this->customise([
             'Order' => $lastorder,
             'ShippingAddress' => $shippingAddress,
+            'Tax' => $tax,
             'CartItems' => $cartitem,
             'CurrentMember' => $member,
             'CartTotal' => $cartTotal

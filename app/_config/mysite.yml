@@ -39,3 +39,4 @@ SilverStripe\Comments\Model\Comment:
   comments_per_page: 10  # Paginates comments, 10 per page
 
 
+

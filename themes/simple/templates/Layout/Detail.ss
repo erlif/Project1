@@ -307,7 +307,6 @@
             </div>
 
 
-
             <button type="button" class="btn btn-outline-dark me-3 fw-bold shadow-none " id="keranjang">Masukan
               Keranjang</button>
             <%-- <button type="button" class="btn fw-bold text-light " id="keranjang"
@@ -579,7 +578,7 @@
             //    priceTotal()
           })
         </script>
-        <% end_with %>
+        
 
           <script>
             $('#keranjang').click(function () {
@@ -592,6 +591,7 @@
               });
               }else{
               var title = $('h2.fw-bold').text().trim();
+              var berat = $Berat;
               var stok = $('#stok').text().trim();
               var price = $('#price').text().trim();
               var quantity = $('#quantity').val();
@@ -600,6 +600,7 @@
               // Create a data object to store
               var item = {
                 title: title,
+                berat: berat,
                 stok: stok,
                 price: price,
                 quantity: quantity,
@@ -626,3 +627,4 @@
               location.reload()
             }
           </script>
+        <% end_with %>

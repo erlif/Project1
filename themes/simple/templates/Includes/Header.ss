@@ -69,75 +69,53 @@
 
 
 
-        <nav class="navbar navbar-expand-lg bg-body-tertiary ppn  text-light" style="z-index:1021;">
-            <div class="pls container-fluid">
-                <div class="container">
-                    <div class="d-flex justify-content-around ">
-                        <div class="col-3 text-start mt-2">
-                            <i class="fa-solid fa-phone-volume float-start mt-1"></i>
-                            <h6>+193193</h6>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary ppn text-light" style="z-index:1021;">
+        <div class="container-fluid">
+            <div class="container-fluid">
+                <div class="row text-dark fw-bold">
+                    <!-- Left Side -->
+                    <div class="col-lg-4 col-md-4 col-sm-12 text-start  d-flex align-items-center gap-1 d-none d-lg-flex">
+                        <div class="d-flex align-items-center">
+                            <i class="fa-solid fa-phone-volume"></i>
+                            <h6 class="fw-bold ms-2 mb-0">$SiteConfig.Nomer</h6>
                         </div>
-                        <div class=" text-center">
-                            <h6 class=" mt-2 ">TAKE CARE diskon 25% with code "UQHD"</h6>
+                        <div class="d-flex align-items-center ms-2">
+                            <i class="fa-regular fa-envelope"></i>
+                            <h6 class="fw-bold ms-2 mb-0">$SiteConfig.Email</h6>
                         </div>
-                        <div class=" text-end">
-                            
-                            <div class="collapse navbar-collapse ppk" id="navbarNav">
-                                <ul class="navbar-nav com">
-                                    <li class="nav-item sd" >
-                                        <div class="dropdown text-end ">
-                                            <button class="btn  dropdown-toggle  text-light " type="button"
-                                                data-bs-toggle="dropdown" aria-expanded="false">
-                                                English
-                                            </button>
-                                            <ul class="dropdown-menu text-light" >
-                                                <li><button class="dropdown-item" type="button">Action</button></li>
-                                                <li><button class="dropdown-item" type="button">Another action</button>
-                                                </li>
-                                                <li><button class="dropdown-item" type="button">Something else
-                                                        here</button>
-                                                </li>
-                                            </ul>
-                                            <button class="btn  dropdown-toggle text-light" type="button"
-                                                data-bs-toggle="dropdown" aria-expanded="false">
-                                                USD
-                                            </button>
-                                            <ul class="dropdown-menu text-light">
-                                                <li><button class="dropdown-item" type="button">Action</button></li>
-                                                <li><button class="dropdown-item" type="button">Another action</button>
-                                                </li>
-                                                <li><button class="dropdown-item" type="button">Something else
-                                                        here</button>
-                                                </li>
-                                            </ul>
-                                            <button class="btn  dropdown-toggle text-light" type="button"
-                                                data-bs-toggle="dropdown" aria-expanded="false">
-                                                Setting
-                                            </button>
-                                            <ul class="dropdown-menu text-light">
-                                                <li><button class="dropdown-item" type="button">Action</button></li>
-                                                <li><button class="dropdown-item" type="button">Another action</button>
-                                                </li>
-                                                <li><button class="dropdown-item" type="button">Something else
-                                                        here</button>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
+                    </div>
+    
+                    <!-- Center -->
+                    <div class="col-lg-4 col-md-12 col-sm-12 text-center mt-2">
+                        <h6 class="fw-bold" >$SiteConfig.Title</h6>
+                    </div>
+    
+                    <!-- Right Side -->
+                    <div class="col-lg-4 col-md-4 col-sm-12 text-end ">
+                        <div class="d-flex justify-content-end gap-2 d-none d-lg-flex">
+                            <a href="$SiteConfig.Facebook">
+                                <button type="button" class="btn btn-circle custom-gap" style="background-color: white; color: black;">
+                                    <i class="fa-brands fa-facebook"></i>
+                                </button>
+                            </a>
+                            <a href="$SiteConfig.Twitter">
+                                <button type="button" class="btn btn-circle custom-gap" style="background-color: white; color: black;">
+                                    <i class="fa-brands fa-twitter"></i>
+                                </button>
+                            </a>
                         </div>
                     </div>
                 </div>
             </div>
-        </nav>
+        </div>
+    </nav>
+    
         <% include Navigation %>
         </header>
 
 
 
 
-        <script src="script.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
             integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
             crossorigin="anonymous" referrerpolicy="no-referrer"></script>

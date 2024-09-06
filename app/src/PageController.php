@@ -3,6 +3,8 @@
 namespace {
 
     use SilverStripe\CMS\Controllers\ContentController;
+    use SilverStripe\Control\Director;
+    use SilverStripe\Control\HTTPRequest;
     use SilverStripe\Dev\Debug;
     use SilverStripe\Security\Security;
 
@@ -27,13 +29,32 @@ namespace {
          *
          * @var array
          */
-        private static $allowed_actions = [];
+        private static $allowed_actions = ['custom'];
+
+        public function custom() {
+            $member = Security::getCurrentUser();
+            if (!$member) {
+                return $this->redirect(Director::absoluteBaseURL() . '/member');
+            }else{
+                // Debug::show('kdskadkak');
+                $Product = ShopObject::get()->sort('Title', 'DESC');
+                return [
+                    'Product' => $Product,
+                    'Member' => $member,
+                ];
+            }
+        }
+        
 
         protected function init()
         {
             parent::init();
+            
+            
+            
+       
  
-        
+          
             // Debug::show($member);
             // die();  
             // You can include any CSS or JS required by your project here.

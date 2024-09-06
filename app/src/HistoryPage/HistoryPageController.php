@@ -9,7 +9,7 @@ class HistoryPageController extends PageController{
     private static $allowed_actions = [
         "Nota"
     ];
-    public function index() {
+    public function index(HTTPRequest $request) {
         $member = Security::getCurrentUser();
         if ($member) {
     
@@ -48,16 +48,17 @@ class HistoryPageController extends PageController{
         $k = $request->param('ID');
         $order = Order::get()->byID($k);
         $codid =  Order::get()->filter('MemberID', $member->ID)->sort()->column('DataCodID');
-        $payment = DataCod::get()->filter('ID', $codid)->sort();
+        $payment = DataCod::get()->filter('ID', $codid)->sort()->last();
         $shippingAddress = MemberIdentity::get()
         ->filter(['MemberID' => $member->ID])
         ->sort('Created', 'DESC')
         ->first();
-        
+        $ordertax = Order::get()->filter('MemberIdentityID', $shippingAddress->ID)->column('Tax');
+        $tax = isset($ordertax[0]) ? $ordertax[0] : 0;
         
         $ID = Order::get()->filter('MemberID', $member->ID)->sort()->column('ID');
         $cartitem = CartItem::get()->sort('OrderID')->filter('OrderID',$order->ID);
-        // Debug::show($cartitem);
+        // Debug::show($payment);
                 $cartTotal = $cartitem->sum('Total');
         }else {
             return $this->redirect(Director::absoluteBaseURL() . '/member');
@@ -66,7 +67,9 @@ class HistoryPageController extends PageController{
         return $this->customise([
             'Order' => $order,
             'ShippingAddress' => $shippingAddress,
+            'Payment' => $payment,
             'CartItems' => $cartitem,
+            'Tax' => $tax,
             'CurrentMember' => $member,
             'CartTotal' => $cartTotal
         ])->renderWith(["NotaHistoryPage", "Page"]);

@@ -19,7 +19,7 @@ class PaymentPageController extends PageController
         'transaksi',
         'callback',
         'status'
-        
+
     ];
 
 
@@ -156,34 +156,34 @@ class PaymentPageController extends PageController
             }
             
             $cartTitle = array_keys($Quantity);
-          
 
-            if($shopObjects = ShopObject::get()->filter(['Title' => $cartTitle])){
+
+            if ($shopObjects = ShopObject::get()->filter(['Title' => $cartTitle])) {
                 foreach ($shopObjects as $shopObject) {
                     $title = $shopObject->Title;
-                        if (isset($Quantity[$title])) {
+                    if (isset($Quantity[$title])) {
                         $shopObject->Stok -= $Quantity[$title];
                         $shopObject->write();
-                        }
-             }
-            }
-            if($shopTitle2 = ShopObject::get()->filter(['Title2' => $cartTitle])){
-                foreach ($shopTitle2 as $shopObject) {
-                    $title2 = $shopObject->Title2;  
-                    if (isset($Quantity[$title2])) {
-                    $shopObject->SubStok -= $Quantity[$title2];
-                    $shopObject->write();
+                    }
                 }
-             }
             }
-            if($shopTitle3 = ShopObject::get()->filter(['Title3' => $cartTitle])){
+            if ($shopTitle2 = ShopObject::get()->filter(['Title2' => $cartTitle])) {
+                foreach ($shopTitle2 as $shopObject) {
+                    $title2 = $shopObject->Title2;
+                    if (isset($Quantity[$title2])) {
+                        $shopObject->SubStok -= $Quantity[$title2];
+                        $shopObject->write();
+                    }
+                }
+            }
+            if ($shopTitle3 = ShopObject::get()->filter(['Title3' => $cartTitle])) {
                 foreach ($shopTitle3 as $shopObject) {
                     $title3 = $shopObject->Title3;
-                        if (isset($Quantity[$title3])) {
+                    if (isset($Quantity[$title3])) {
                         $shopObject->SubStok2 -= $Quantity[$title3];
                         $shopObject->write();
-                        }
-             }
+                    }
+                }
             }
 
             $payment = $data['Payment'];
@@ -205,7 +205,7 @@ class PaymentPageController extends PageController
             $merchantUserInfo = ''; // opsional
             $customerVaName = $omah->FullName; // tampilan nama pada tampilan konfirmasi bank
             $callbackUrl = Director::absoluteBaseURL() . '/callback'; // url untuk callback
-            $returnUrl = Director::absoluteBaseURL() .'/payment/status'; // url untuk redirect
+            $returnUrl = Director::absoluteBaseURL() . '/payment/status'; // url untuk redirect
             $expiryPeriod = 10; // atur waktu kadaluarsa dalam hitungan menit
             $signature = md5($merchantCode . $merchantOrderId . $paymentAmount . $apiKey);
 
@@ -306,6 +306,7 @@ class PaymentPageController extends PageController
                 $lastorder->Email = $email;
                 $lastorder->Phone = $phoneNumber;
                 $lastorder->Signature = $signature;
+                $lastorder->Total = $total;
                 $lastorder->write();
                 $order = Order::get()->last();
                 $order->LastOrderID = $lastorder->ID;
@@ -385,20 +386,25 @@ class PaymentPageController extends PageController
                     // echo "statusCode :" . $results['statusCode'] . "<br />";
                     // echo "statusMessage :" . $results['statusMessage'] . "<br />";
                     // return $this->redirect('http://localhost/pindah/');
-                
+                    $result = json_decode($requests, true);
+                    return $this->redirect($result['paymentUrl']);
+
                 } else {
                     $request = json_decode($request);
                     $error_message = "Server Error " . $httpCode . " " . $request->Message;
                     echo $error_message;
                 }
-                $result = json_decode($requests, true);
-                return $this->redirect($result['paymentUrl']);
             }
 
         } else {
             return $this->redirect(Director::absoluteBaseURL() . '/member');
         }
     }
+
+
+
+
+
     public function status(HTTPRequest $request)
     {
         $member = Security::getCurrentUser();
@@ -457,18 +463,18 @@ class PaymentPageController extends PageController
                     // echo "statusMessage :" . $results['statusMessage'] . "<br />";
                     return $this->redirect(Director::absoluteBaseURL() . '/history-bank');
 
-                
+
                 } else {
                     $request = json_decode($request);
                     $error_message = "Server Error " . $httpCode . " " . $request->Message;
                     echo $error_message;
                 }
-            
+
             }
         } else {
             return $this->redirect($this->link('http://localhost/pindah/member'));
         }
     }
-    
+
 
 }
